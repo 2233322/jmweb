@@ -7,6 +7,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
+    "pro": "nuxt build && nuxt start",
     "generate": "nuxt generate",
     "analyze": "nuxt build --analyze",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
@@ -33,5 +34,11 @@
     "stylus-loader": "^3.0.2",
     "url-loader": "^1.1.1",
     "webpack-bundle-analyzer": "^2.13.1"
+  },
+  "config": {
+    "nuxt": {
+      "host": "127.0.0.1",
+      "port": "7465"
+    }
   }
 }
