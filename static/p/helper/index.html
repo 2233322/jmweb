@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf8">
+  <title>免费预约量房设计-玖米空间</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/fullpage.js@3.0.3/dist/fullpage.min.css">
+  <link data-n-head="true" rel="icon" type="image/x-icon" href="/favicon.png"/>
+  <style>
+    .fullpage-wrapper .section {
+      position: relative;
+    }
+
+    .section-content {
+      position: relative;
+      height: 720px;
+      text-align: center
+    }
+
+    .section-content .divide {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: 500px;
+      transform: translateY(-18px);
+      animation: upd 2s linear infinite alternate;
+      cursor: pointer
+    }
+
+    .section-content .abs {
+      position: absolute;
+      top: 50%;
+      left: 50%
+    }
+
+    @keyframes upd {
+      from: {
+        transform: translateY(-28px)
+      }
+
+      to {
+        transform: translateY(0)
+      }
+    }
+    .feedback-wrap {
+      margin: 50px auto;
+      padding: 20px;
+      width: 800px;
+      background-color: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .feedback-form {
+      width: 50%;
+      float: left;
+    }
+    .feedback-form h1 {
+      color: #ec9026
+    }
+.feedback-form .input-group {
+  margin-bottom: 20px
+}
+    .feedback-form .inputbox{
+      padding: 0 10px;
+      height: 38px;
+      width: 314px;
+      background-color: #dadada;
+      border: none;
+      border-radius: 2px;
+      outline: none
+    }
+
+.feedback-form .address select {
+  height: 38px;
+  background-color: #dadada;
+  border: none;
+  outline: none;
+  font-size: 13px;
+}
+  .jieting {
+    margin: 0 auto;
+    padding: 0 0 0 10px;
+    width: 318px;
+    background-color: #dadada;
+    text-align: left;
+    height: 38px;
+    border-radius: 2px;
+    vertical-align: middle;
+  }
+
+  .jieting span {
+    line-height: 38px;
+    color: #555
+  }
+
+  .jieting select {
+    width: 200px;
+    height: 38px;
+    border: none;
+    outline: none;
+    background-color: #dadada
+  }
+.submit {
+  width: 330px;
+  line-height: 38px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ee3938;
+  border: none;
+  /* cursor: pointer; */
+}
+.feedback-today {
+  float: right;
+  margin-top: 30px;
+  width: 49%;
+  border: 1px solid #ccc;
+}
+.today-wrap {
+  width:calc(100% - 10px);
+  margin: 5px auto;
+  background-color: #ccc;
+}
+.today-wrap h2 {
+  margin: 0;
+  padding: 10px 0 0 0;
+  color: #ec9026
+}
+.today-wrap h2 span {
+  color: #e60012
+}
+.today-wrap .subtitle {
+  margin: 0;
+  font-size: 22px;
+  color: #666
+}
+.today-wrap .today_list {
+  overflow: hidden;
+  height: 286px
+}
+.today-wrap .today_list ul {
+  padding: 0;
+  margin: 0
+}
+.today-wrap .today_list li span {
+  color: #efefef;
+  margin-right: 10px;
+  line-height: 30px
+}
+.formresult {
+  color: #ff0000
+}
+  </style>
+</head>
+
+<body>
+  <div>
+    <div id="fullpage">
+      <div class="section section1">
+        <div class="section-content section-content1">
+          <div><img src="./images/cous_01.png"></div>
+          <div style="margin-top: 90px"><img src="./images/cous_02.jpg"></div>
+          <div class="divide" id="godown"><img src="./images/cous_03.png"></div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-content section-content2">
+          <div><img src="./images/cous_04.png"></div>
+          <div style="margin-top: 230px"><img src="./images/cous_05.png"></div>
+          <div class="abs" style="transform: translate(-160px, -150px)"><img src="./images/cous_06.png"></div>
+          <div class="abs" style="transform: translate(200px, -100px)"><img src="./images/cous_07.png"></div>
+          <div class="abs" style="transform: translate(-430px)"><img src="./images/cous_08.png"></div>
+          <div class="abs" style="transform: translate(290px, 110px)"><img src="./images/cous_09.png"></div>
+          <div class="divide J_baidu"><img src="./images/cous_10.png"></div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-content section-content3">
+          <div><img src="./images/cous_11.png"></div>
+          <div style="margin-top: 76px"><img src="./images/cous_12.png"></div>
+          <div class="divide J_baidu"><img src="./images/cous_10.png"></div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-content section-content4">
+          <div><img src="./images/cous_13.png"></div>
+          <div class="abs" style="transform: translate(-490px, -190px)"><img src="./images/cous_14.png"></div>
+          <div class="abs" style="transform: translate(100px, -180px)"><img src="./images/cous_15.png"></div>
+          <div class="divide J_baidu" style="bottom: 90px; margin-left: 255px"><img src="./images/cous_16.png"></div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-content section-content5">
+          <div><img src="./images/cous_17.png"></div>
+          <div style="margin-top: 130px"><img src="./images/cous_18.png"></div>
+          <div class="divide J_baidu"><img src="./images/cous_19.png"></div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-content section-content6">
+          <div><img src="./images/cous_20.png"></div>
+          <div class="feedback-wrap">
+            <div class="feedback-form">
+              <h1>免费设计量尺</h1>
+              <div class="form-wrap J_form">
+                <div class="input-group">
+                  <input class="inputbox J_value_name" placeholder="您的称呼"/>
+                </div>
+                <div class="input-group">
+                  <input class="inputbox J_value_mobile" placeholder="您的手机号码"/>
+                </div>
+                <div class="input-group">
+                  <div id="distpicker" class="address">
+                    <select class="J_value_province"></select>
+                    <select class="J_value_city"></select>
+                    <select class="J_value_district"></select>
+                  </div>
+                </div>
+                <div class="input-group">
+                  <div class="jieting" style="margin-bottom:20px;display: flex;">
+                    <span>方便接听时间：</span>
+                    <select class="J_value_contactTime">
+                      <option value="0" selected="">随时可联系</option>
+                      <option value="1">上午 (09:30—12:00)</option>
+                      <option value="2">中午 (12:00—14:00)</option>
+                      <option value="3">下午 (14:00—18:00)</option>
+                      <option value="4">晚上 (18:00—22:30)</option>
+                    </select>
+                  </div>
+                </div>
+                <p class="formresult J_send_result"></p>
+                <div class="input-group">
+                  <button class="submit J_send">免费预约</button>
+                </div>
+              </div>
+            </div>
+            <div class="feedback-today">
+              <div class="today-wrap">
+                <h2>今天已有 <span>1188</span> 位业主</h2>
+                <p class="subtitle">预约免费设计并获取报价</p>
+                <div class="today_list"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/fullpage.js@3.0.3/dist/fullpage.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/distpicker@2.0.4/dist/distpicker.min.js"></script>
+  <script src="/p/common/js/request.js"></script>
+<script>
+$(document).ready(function () {
+  $('#fullpage').fullpage({
+    licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+    sectionsColor: ['#f5c59b', '#b2d3a3', '#ef9f93', '#dab9cd', '#b5d2d6', '#f17c67'],
+    navigation: true,
+    slidesNavigation: true,
+  });
+  $('#godown').click(function(e){
+      $.fn.fullpage.moveSectionDown();
+  });
+  $('.J_baidu').click(function () {
+    window.open("http://p.qiao.baidu.com/cps/chat?siteId=10571075&userId=23558704","","top=100,left=100,width=780,height=760")
+  })
+  $("#distpicker").distpicker({
+    province: '广东省',
+    city: '广州市',
+    district: '天河区',
+    autoselect: 3
+  });
+  var $today = $(".today_list");
+  $($today).append('<ul>' + '<li><span>广州</span><span>成先生</span><span>今日已预约免费设计</span></li>' + '<li><span>广州</span><span>许先生</span><span>今日已预约免费设计</span></li>' + '<li><span>深圳</span><span>魏女士</span><span>今日已预约免费设计</span></li>' + '<li><span>中山</span><span>易女士</span><span>今日已预约免费设计</span></li>' + '<li><span>杭州</span><span>李先生</span><span>今日已预约免费设计</span></li>' + '<li><span>南京</span><span>王先生</span><span>今日已预约免费设计</span></li>' + '<li><span>中山</span><span>张女士</span><span>今日已预约免费设计</span></li>' + '<li><span>佛山</span><span>廖先生</span><span>今日已预约免费设计</span></li>' + '<li><span>惠州</span><span>黄女士</span><span>今日已预约免费设计</span></li>' + '<li><span>宁坡</span><span>游先生</span><span>今日已预约免费设计</span></li>' + '<li><span>无锡</span><span>郭先生</span><span>今日已预约免费设计</span></li>' + '<li><span>汝丹</span><span>刘先生</span><span>今日已预约免费设计</span></li>' + '<li><span>温州</span><span>李小姐</span><span>今日已预约免费设计</span></li>' + '<li><span>苏州</span><span>陈先生</span><span>今日已预约免费设计</span></li>' + '<li><span>东莞</span><span>胡先生</span><span>今日已预约免费设计</span></li>' + '<li><span>东莞</span><span>谢小姐</span><span>今日已预约免费设计</span></li>' + '<li><span>金华</span><span>沈小姐</span><span>今日已预约免费设计</span></li>' + '</ul>');
+    var scrollTimer;
+    $today.hover(function () {
+      clearInterval(scrollTimer)
+    }, function () {
+      scrollTimer = setInterval(function () {
+        scrollNews($today)
+      }, 2000)
+    }).trigger("mouseout");
+
+    function scrollNews(obj) {
+      var $self = obj.find("ul:first");
+      var lineHeight = $self.find("li:first").height();
+      $self.animate({
+        "margin-top": -lineHeight + "px"
+      }, 1000, function () {
+        $self.css({
+          "margin-top": "0px"
+        }).find("li:first").appendTo($self)
+      })
+    }
+})
+</script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+*{
+  font-family: "Microsoft YaHei"
+}
+body, html {
+    overflow-x: hidden;
+}
+body, div, li, ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    list-style-type: none;
+}
+img {
+  display: block;
+  border: none
+}
+.pos-rel {
+  position: relative;
+}
+.pos-abs {
+  position: absolute
+}
+.bgbox {
+  width: 1920px;
+  position: relative;
+  left: 50%;
+  margin-left: -960px;
+}
+
+.yuyue-btn {
+  cursor: pointer;
+  /* background: rgba(100, 100, 100, .6); */
+}
