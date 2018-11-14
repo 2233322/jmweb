@@ -41,6 +41,14 @@ export default {
     const { data: { article } } = await getArticle(id)
     return { asyncData: { article } }
   },
+  head () {
+    return {
+      title: this.asyncData.article.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.asyncData.article.description }
+      ]
+    }
+  },
   computed: mapGetters({
     goodsHot: 'category/goodsHot'
   }),

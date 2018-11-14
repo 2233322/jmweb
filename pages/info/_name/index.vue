@@ -72,6 +72,11 @@ export default {
       }
     }
   },
+  head () {
+    return {
+      title: this.asyncData.nodes[0].articleCategory.title
+    }
+  },
   computed: mapGetters({
     goodsHot: 'category/goodsHot'
   }),

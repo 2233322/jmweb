@@ -60,6 +60,17 @@
   </div>
 </template>
 
+<script>
+export default {
+  head () {
+    return {
+      title: '玖米空间活动专题'
+    }
+  }
+}
+</script>
+
+
 <style lang="stylus">
 .page-topic
   padding-bottom: 35px

@@ -97,7 +97,8 @@
         </div>
         <div class="item"><nuxt-link :to="{ name: 'show' }">买家秀</nuxt-link></div>
         <div class="item"><nuxt-link :to="{ name: 'guide-id', params: { id: 12 } }">关于玖米</nuxt-link></div>
-        <div class="item"><a href="http://www.9-mi.cn/zhuanti/zs/" target="_blank">招商加盟</a></div>
+        <div class="item"><a href="http://www.9-mi.cn/zhuanti/zs/" target="_blank">阳台合伙人</a></div>
+        <div class="item"><a href="http://www.9-mi.cn/zhuanti/hyzs/" target="_blank">玖米花园</a></div>
       </div>
     </b-container>
   </header>
@@ -191,7 +192,7 @@ header
         line-height: 40px
         a
           display: block
-          padding: 0 20px
+          padding: 0 18px
           color: #333
           font-size:15px
           font-weight: bold

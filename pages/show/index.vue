@@ -32,6 +32,11 @@ export default {
       }
     }
   },
+  head () {
+    return {
+      title: '玖米空间买家晒图'
+    }
+  },
   async asyncData () {
     const { data: { listOfArticle: { nodes, totalCount } } } = await listOfArticle(30, 0, 'show')
     return {

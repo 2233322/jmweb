@@ -39,6 +39,7 @@ export async function listOfGoodsAndCategories (first = 20, skip = 0, categoryKe
           id
           title
           key
+          description
         }
         cateNodes: currentCategories {
           id
@@ -204,6 +205,7 @@ export async function article (id) {
       article(id: ${id}) {
         title
         subtitle
+        description
         cover {
           path
         }

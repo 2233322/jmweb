@@ -72,9 +72,13 @@ import { listOfGoodsAndCategories, addFavorite } from '../../utils/api'
 
 export default {
   watchQuery: true,
-  data () {
+  head () {
     return {
-     }
+      title: this.asyncData.currentCate.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.asyncData.currentCate.description }
+      ]
+    }
   },
   async asyncData ({ params: { name }, query: { sort = 'sort', page = 1 } }) {
     const first = 20

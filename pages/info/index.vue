@@ -84,7 +84,7 @@
             <span>在寸土寸金的城市，有个属于自己的房子已经是很不容易有个属于自己的私人空间就更难得了,看看这款阳台,浓厚的东南亚气息室内都是环保耐用的玖米木板构造,肌理分明但色泽柔和的自然本色</span>
           </nuxt-link>
           <nuxt-link class="item" target="_black" to="/info/custom/1">
-            <img src="//api.9-mi.cn/resource/file/201811121510563910.jpg">
+            <img src="//api.9-mi.cn/resource/file/201811131625214010.jpg">
             <h3>阳台改造后明明可以靠颜值却偏偏要靠实力，邻居看了都羡慕</h3>
             <span>装修前这仅仅8平方米的小阳台是如此简陋。阳台改造后明明可以考颜值去偏偏靠实力，如今邻居看了都羡慕。生活需要绿色的点缀，是否想过把自家的阳台打造成一个小花园？让家拥有一个绿意盎然的空间，修身养性，让生活“慢下来”。</span>
           </nuxt-link>
@@ -101,6 +101,11 @@
 
 <script>
 export default {
+  head () {
+    return {
+      title: '秒懂户外'
+    }
+  },
   mounted () {
     const _banner = this.$refs.banner
     _banner.addEventListener('click', event => {

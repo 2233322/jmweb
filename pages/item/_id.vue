@@ -81,6 +81,14 @@ export default {
       qrurl: "http://m.9-mi.cn/item/"
     }
   },
+  head () {
+    return {
+      title: this.asyncData.goods.name,
+      meta: [
+        { hid: 'description', name: 'description', content: this.asyncData.goods.description }
+      ]
+    }
+  },
   async asyncData ({ params: { id } }) {
     const { data: { goods } } = await getGoods(id)
     return {

@@ -35,6 +35,14 @@ export default {
         article
       }
     }
+  },
+  head () {
+    return {
+      title: this.asyncData.article.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.asyncData.article.description }
+      ]
+    }
   }
 }
 </script>

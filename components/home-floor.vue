@@ -275,7 +275,7 @@
                 <span>阳光的味道</span>
               </div>
             </nuxt-link>
-            <nuxt-link to="/" class="item">
+            <nuxt-link to="/show/42" target="_blank" class="item">
               <div class="item-cover">
                 <img src="~static/images/mjx2.jpg">
                 <div class="item-cover-hover">
@@ -291,10 +291,10 @@
               <div class="item-describe">
                 <div class="show-title">阳光房</div>
                 <div class="short-line"></div>
-                <span>都说我是艺术品</span>
+                <span>览尽四季的颜色</span>
               </div>
             </nuxt-link>
-            <nuxt-link to="/" class="item">
+            <nuxt-link to="/show/38" target="_blank" class="item">
               <div class="item-cover">
                 <img src="~static/images/mjx3.jpg">
                 <div class="item-cover-hover">
@@ -310,10 +310,10 @@
               <div class="item-describe">
                 <div class="show-title">花园休闲空间</div>
                 <div class="short-line"></div>
-                <span>都说我是艺术品</span>
+                <span>每一刻都很惬意</span>
               </div>
             </nuxt-link>
-            <nuxt-link to="/" class="item">
+            <nuxt-link to="/show/41" target="_blank" class="item">
               <div class="item-cover">
                 <img src="~static/images/mjx4.jpg">
                 <div class="item-cover-hover">
@@ -329,10 +329,10 @@
               <div class="item-describe">
                 <div class="show-title">智能百叶屋顶</div>
                 <div class="short-line"></div>
-                <span>都说我是艺术品</span>
+                <span>开合之间全是用心</span>
               </div>
             </nuxt-link>
-            <nuxt-link to="/" class="item">
+            <nuxt-link to="/" target="_blank" class="item">
               <div class="item-cover">
                 <img src="~static/images/mjx5.jpg">
                 <div class="item-cover-hover">
@@ -348,10 +348,10 @@
               <div class="item-describe">
                 <div class="show-title">智能推拉阳光房</div>
                 <div class="short-line"></div>
-                <span>都说我是艺术品</span>
+                <span>比爱人还知冷暖</span>
               </div>
             </nuxt-link>
-            <nuxt-link to="/" class="item">
+            <nuxt-link to="/show/39" target="_blank" class="item">
               <div class="item-cover">
                 <img src="~static/images/mjx6.jpg">
                 <div class="item-cover-hover">
