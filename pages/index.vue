@@ -6,8 +6,8 @@
         <a href="/item/12" target="_blank"><div class="slide slide--2" style="background-image: url(//api.9-mi.cn/resource/jiumiweb/pc/images/banner0.jpg)"></div></a>
         <a href="/item/49" target="_blank"><div class="slide slide--3" style="background-image: url(//api.9-mi.cn/resource/jiumiweb/pc/images/banner2.jpg)"></div></a>
       </agile>
-      <div slot="placeholder" class="img-placeholder">
-        <img src="//api.9-mi.cn/resource/jiumiweb/pc/images/banner1.jpg" />
+      <div slot="placeholder" style="background-color: #de171c; height: 500px; width: 100%">
+        <img src="//api.9-mi.cn/resource/jiumiweb/pc/images/banner1.jpg" style="height: 500px"/>
       </div>
     </no-ssr>
     <b-container class="flow-inner" fluid>

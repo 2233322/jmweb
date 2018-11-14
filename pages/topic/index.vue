@@ -55,6 +55,20 @@
           </div>
           <p>全铝橱柜</p>
         </a>
+        <a class="item" target="_blank" href="//www.9-mi.cn/zhuanti/vbox/">
+          <div class="item-bg">
+            <img src="~static/images/hzt9.jpg">
+            <b>智能调度，自由调节</b>
+          </div>
+          <p>智能百叶遮阳系统VBOX</p>
+        </a>
+        <a class="item" target="_blank" href="//www.9-mi.cn/zhuanti/znqjygf/">
+          <div class="item-bg">
+            <img src="~static/images/hzt10.jpg">
+            <b>亲近自然开阔视野</b>
+          </div>
+          <p>智能全景阳光房</p>
+        </a>
       </div>
     </b-container>
   </div>

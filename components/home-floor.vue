@@ -275,7 +275,7 @@
                 <span>阳光的味道</span>
               </div>
             </nuxt-link>
-            <nuxt-link to="/show/42" target="_blank" class="item">
+            <nuxt-link to="/show/34" target="_blank" class="item">
               <div class="item-cover">
                 <img src="~static/images/mjx2.jpg">
                 <div class="item-cover-hover">
@@ -332,7 +332,7 @@
                 <span>开合之间全是用心</span>
               </div>
             </nuxt-link>
-            <nuxt-link to="/" target="_blank" class="item">
+            <nuxt-link to="/show/42" target="_blank" class="item">
               <div class="item-cover">
                 <img src="~static/images/mjx5.jpg">
                 <div class="item-cover-hover">
@@ -529,11 +529,11 @@
             border: 1px solid #f5f5f5
             .item-cover
               position: relative
-              height: 180px
+              height: 200px
               img
                 display: block
                 max-width: 100%
-                height: 164px
+                height: 200px
               .item-cover-hover
                 position: absolute
                 top: 0
