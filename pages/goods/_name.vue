@@ -74,7 +74,7 @@ export default {
   watchQuery: true,
   head () {
     return {
-      title: this.asyncData.currentCate.title,
+      title: this.asyncData.currentCate.webSiteTitle || this.asyncData.currentCate.title,
       meta: [
         { hid: 'description', name: 'description', content: this.asyncData.currentCate.description }
       ]

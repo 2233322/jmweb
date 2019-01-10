@@ -39,6 +39,7 @@ export async function listOfGoodsAndCategories (first = 20, skip = 0, categoryKe
           id
           title
           key
+          webSiteTitle
           description
         }
         cateNodes: currentCategories {

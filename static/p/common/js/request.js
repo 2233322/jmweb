@@ -77,6 +77,8 @@ $(document).ready(function () {
       },
       success: (result) => {
         if (typeof result.errors === 'undefined') {
+           $('.J_value_name', $_form).val('')
+           $('.J_value_mobile', $_form).val('')
            $('.J_send_result', $_form).html('<span style="color: #2a950f">恭喜登记成功，请您24小时内留意接听玖米家居顾问来电</span>')
         } else {
           $('.J_send_result', $_form).html('<span style="color: #ff0000">服务器被外星人偷走了，请拨打400-883-8366服务热线联系我们.</span>')
@@ -86,6 +88,5 @@ $(document).ready(function () {
         $('.J_send_result', $_form).html('<span style="color: #ff0000">服务器被外星人偷走了，请拨打400-883-8366服务热线联系我们.</span>')
       }
     })
-    $(this).attr('disabled', false)
   })
 })
