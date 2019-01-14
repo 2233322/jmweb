@@ -83,7 +83,7 @@ export default {
   },
   head () {
     return {
-      title: this.asyncData.goods.name,
+      title: this.asyncData.goods.name + '-玖米空间',
       meta: [
         { hid: 'description', name: 'description', content: this.asyncData.goods.description }
       ]

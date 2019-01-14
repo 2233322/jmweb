@@ -39,7 +39,7 @@
                 <div class="category-list-left">
                   <div class="top">
                     <i class="icon"></i>
-                    <nuxt-link target="_blank" to="//www.djw001.com">玖米度假屋</nuxt-link>
+                    <nuxt-link target="_blank" to="//www.djw001.com">玖米建筑工业</nuxt-link>
                   </div>
                   <div class="bottom">
                     <nuxt-link target="_blank" to="//www.djw001.com/products/djwdz" >度假屋</nuxt-link>
@@ -76,18 +76,26 @@
           </div>
         </div>
         <div class="item"><nuxt-link :to="{name: 'index'}"><img src="~/assets/images/jumi-menu.png" alt="玖米空间"></nuxt-link></div>
-        <div class="item"><a href="http://www.djw001.com/?from=9-mi.cn" target="_black"><img src="~/assets/images/wenlv-menu.png" alt="玖米文旅"></a></div>
+        <div class="item"><a href="http://www.djw001.com/?from=9-mi.cn" target="_black">玖米建筑工业</a></div>
         <div class="item"><nuxt-link :to="{ name: 'topic' }">专题活动</nuxt-link></div>
         <div class="item itemore">
-          <nuxt-link :to="{name: 'info'}">秒懂户外</nuxt-link>
+          <nuxt-link :to="{name: 'info'}">定制攻略</nuxt-link>
           <div class="children">
-            <nuxt-link class="child-item" :to="{ name: 'info-name', params: { name: 'outdoor' } }" target="_black">
-              <img src="~assets/images/m-icon-hwp.png">
-              <p>户外篇</p>
-            </nuxt-link>
             <nuxt-link class="child-item" :to="{ name: 'info-name', params: { name: 'custom' } }" target="_black">
-              <img src="~assets/images/m-icon-dzp.png">
-              <p>定制篇</p>
+              <img src="~assets/images/m-icon-ytdz.png">
+              <p>阳台定制</p>
+            </nuxt-link>
+            <nuxt-link class="child-item" :to="{ name: 'info-name', params: { name: 'outdoor' } }" target="_black">
+              <img src="~assets/images/m-icon-tydz.png">
+              <p>庭院定制</p>
+            </nuxt-link>
+             <nuxt-link class="child-item" :to="{ name: 'info-name', params: { name: 'gazebo' } }" target="_black">
+              <img src="~assets/images/m-icon-ltwd.png">
+              <p>露台屋顶</p>
+            </nuxt-link>
+             <nuxt-link class="child-item" :to="{ name: 'info-name', params: { name: 'cabinet' } }" target="_black">
+              <img src="~assets/images/m-icon-cgdz.png">
+              <p>橱柜定制</p>
             </nuxt-link>
             <nuxt-link class="child-item" :to="{ name: 'info-name', params: { name: 'company' } }" target="_black">
               <img src="~assets/images/m-icon-dtp.png">
@@ -354,7 +362,7 @@ header
               font-weight: 400
               img
                 width: 36px
-                height: 40px
+                height: 36px
               &:hover
                 color: #cb0d1c
           &:hover

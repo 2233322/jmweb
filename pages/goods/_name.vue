@@ -74,7 +74,7 @@ export default {
   watchQuery: true,
   head () {
     return {
-      title: this.asyncData.currentCate.webSiteTitle || this.asyncData.currentCate.title,
+      title: this.asyncData.currentCate.webSiteTitle + '-玖米空间' || this.asyncData.currentCate.title + '-玖米空间',
       meta: [
         { hid: 'description', name: 'description', content: this.asyncData.currentCate.description }
       ]
