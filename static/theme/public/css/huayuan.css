@@ -1,0 +1,277 @@
+.banner > div {
+    position: relative
+}
+
+.banner .banner-con {
+    position: absolute;
+    top: 24vh;
+    left: 1vh;
+    width: 600px;
+    height: 160px;
+    padding: 8px;
+    background:rgba(22,50,74,0.8)!important;
+}
+
+.banner .banner-con > .banner-border {
+    width: 100%;
+    height: 100%;
+    border:2px solid #fff;
+    text-align: center;
+    color: #f8da06;
+}
+
+.banner .banner-con h3 {
+    font-size: 54px;
+}
+
+.banner .banner-con p {
+
+    font-size: 22px
+}
+
+.banner .banner-con b {
+    position:relative; 
+    display: block;
+    width: 258px;
+    height: 60px;
+    margin: 0 auto;
+    background-image: url(../images/huayuan/bt.png);
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer
+
+}
+
+.mianfei {
+    padding:50px 0 20px 0;
+    background: #f9f9f9
+}
+.mianfei > div {
+    padding:0 90px;
+}
+.mianfei ul li {
+    display: inline-block;
+    margin: 0 75px;
+    text-align: center;
+    cursor: pointer
+f9f9f9
+}
+
+.mianfei ul li p {
+    font-size: 20px;
+    color: #6a6a6a;
+    line-height: 36px
+}
+
+/*表单*/
+.yuyue {
+    padding-bottom: 100px;
+    background: #f9f9f9
+}
+
+.yuyue .container > div {
+        border: 20px solid #ffc519;
+}
+
+.yuyue .container  div.first {
+    border-right: 20px solid #ffc519
+}
+
+.yuyue .from-tit{
+    line-height: 1px;
+    border-left: 100px solid #ea9f0e;
+    border-right: 100px solid #ea9f0e;
+    text-align: center;
+    margin: 45px auto 67px auto;
+    color: #ea9f0e;
+    font-size: 44px;
+    width: 80%;
+}
+
+
+.yuyue input.form-control {
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 90%;
+    height: 65px;
+    font-size: 30px;
+    color: #e9a51e;
+}
+
+.yuyue .btn {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #e63641;
+    border-color: #e63641;
+    padding: 10px 99px;
+    font-size: 30px;
+    margin: 20px auto 54px;
+}
+.yuyue .btn:focus,
+.yuyue .btn.focus {
+  color: #fff;
+  background-color: #ec5e66;
+  border-color: ec5e66;
+}
+.yuyue .btn:hover {
+  color: #fff;
+  background-color: #ec5e66;
+  border-color: ec5e66;
+}
+
+.yuyue .from_con {
+    text-align: center
+}
+.yuyue .from_con h3{
+    font-size:36px;
+    }
+.yuyue .from_con h3 em{
+    color: #e60012;
+    }
+.yuyue .from_con p{
+    font-size:30px;color: #434343;
+    }
+
+.yuyue .from_list {
+    height: 270px;
+    overflow: hidden
+}
+
+.yuyue .from_list li {
+    line-height: 35px
+}
+.yuyue .from_list li span {margin-right: 20px;}
+
+.dingzhi1 {
+    position: relative
+}
+
+.dingzhi1 .dingzhi-ty {
+    position: absolute;
+    top:30vh
+}
+
+.dingzhi1 .dingzhi-ty p {
+    padding: 26px 0;
+    font-size: 24px;
+    text-align: left
+}
+
+.dingzhi1 .dingzhi-ty .b {
+    padding: 6px 20px;
+    background: #c9a95b;
+    border-color:#c9a95b;
+    color: #fff;
+    font-size: 24px
+}
+
+.dingzhi1 .cont-list {
+    margin: 20px auto 32px auto
+}
+
+.dingzhi1 .cont-list ul li{
+    position: relative;
+    display: inline-block;
+    float: left
+}
+
+.dingzhi1 .cont-list ul li p {
+    position: absolute;
+    bottom: 10px;
+    background: rgba(255,255,255,0.6)!important;
+    width: 570px;
+    margin: 0 10px;
+    padding: 10px 36px 0 36px ;
+    text-align: left;
+    font-size: 32px
+}
+.dingzhi1 .cont-list p span {
+    font-size: 26px
+} 
+
+.dingzhi1 .cont-list small {
+    display: block;
+    font-size: 20px
+}
+.dingzhi1 .cont-list ul + img{
+    margin-top:10px;
+    widows: 100%
+}
+.dingzhi1 .cont-list ul li b {
+     padding: 8px 15px;
+    display: block;
+    width: 117px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: url(../images/huwaidingzhi/dingzhi-bt.png) no-repeat top center;
+    font-size: 34px;
+    font-weight: inherit;
+    line-height: 40px;
+    cursor: pointer
+}
+
+.main-tit {
+    background: #f8da06 url(../images/huayuan/main-bg.png) no-repeat center 125px;
+    padding:0 0 16px 0;
+}
+.main-tit h2 {
+    font-size: 48px;
+    margin-bottom: 0
+}
+.main-tit p {
+    font-size: 22px;
+}
+
+.huayuan-cp {
+    position: relative
+}
+.huayuan-cp b {
+    position: absolute;
+    display: block;
+    width: 235px;
+    height: 50px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.xiu {
+    background:#f8da06
+}
+.xiu .main-tit {
+    border-bottom: 10px solid #c9b002
+}
+.xiu .main-tit h1,
+.xiu .main-tit p{
+    color: #f8da06
+}
+.xiu .xiu-list {
+    margin: 30px auto;
+    padding: 0 40px;
+}
+.xiu .xiu-list ul {
+    padding: 10px;
+    background: #fff;
+    
+}
+.xiu .xiu-list ul li {
+    display: inline-block
+}
+.sjs {
+    background-color: #f8da06
+}
+.sjs .btn-primary {
+    background-color: #f8da06;
+    border-color: #f8da06;
+    color: #000
+}
+
+.sjs-list {
+    background: #f8da06;
+}
+
+.sjs-list .con {
+    background: #f8da06;
+}

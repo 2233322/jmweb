@@ -1,0 +1,481 @@
+.banner {
+    margin: 0 auto;
+    width: 100%
+}
+
+.fuwu {
+    margin-top: 50px;
+}
+
+.fuwu img {
+    display: block;
+    width: 838px;
+    margin: 0 auto
+}
+.fuwu div {
+    width: 838px;
+    margin: 0 auto;
+}
+.fuwu ul li {
+    float: left;
+    margin-right: 38px;
+    width: 108px;
+    font-size: 20px;
+    text-align: center
+}
+
+/*表单*/
+  .yuyue {
+    position: relative;
+    padding-bottom: 100px;
+    background: #f9f9f9
+  }
+
+  .yuyue .container>div {
+    border: 20px solid #ffc519;
+  }
+
+  .yuyue .container div.first {
+    border-right: 20px solid #ffc519
+  }
+
+  .yuyue .from-tit {
+    line-height: 1px;
+    border-left: 100px solid #ea9f0e;
+    border-right: 100px solid #ea9f0e;
+    text-align: center;
+    margin: 45px auto 67px auto;
+    color: #ea9f0e;
+    font-size: 44px;
+    width: 80%;
+  }
+
+  .yuyue input.form-control {
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+    color: #e9a51e;
+  }
+
+  .jieting {
+    margin: 0 auto;
+    width: 90%;
+    background-color: #fff;
+    text-align: left;
+    height: 56px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    color: #555
+  }
+
+  .jieting span {
+    line-height: 44px;
+    color: #555
+  }
+
+  .jieting select {
+    width: 380px;
+    height: 44px;
+    border: none;
+    outline: none;
+  }
+
+  .yuyue .btn {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #e63641;
+    border-color: #e63641;
+    padding: 10px 99px;
+    font-size: 30px;
+    margin: 20px auto 54px;
+  }
+
+  .yuyue .btn:focus,
+  .yuyue .btn.focus {
+    color: #fff;
+    background-color: #ec5e66;
+    border-color: ec5e66;
+  }
+
+  .yuyue .btn:hover {
+    color: #fff;
+    background-color: #ec5e66;
+    border-color: ec5e66;
+  }
+
+  .yuyue .from_con {
+    text-align: center
+  }
+
+  .yuyue .from_con h3 {
+    font-size: 36px;
+  }
+
+  .yuyue .from_con h3 em {
+    color: #e60012;
+  }
+
+  .yuyue .from_con p {
+    font-size: 30px;
+    color: #434343;
+  }
+
+  .yuyue .from_list {
+    height: 270px;
+    overflow: hidden
+  }
+
+  .yuyue .from_list li {
+    line-height: 35px
+  }
+
+  .yuyue .from_list li span {
+    margin-right: 20px;
+  }
+
+
+/* pr1 */
+.pr1 {
+    background-color: #f3f3f3
+}
+.mainimg {
+    display: block;
+    float: left
+}
+.pr1-head {
+    margin-top: 240px;
+    text-align: left
+}
+.pr1-head p {
+    text-align: left;
+    font-size: 20px;
+}
+.pr1-head button {
+    margin-top: 20px;
+    padding: 6px 40px;
+    font-size: 28px;
+    color: #fff;
+    background-color: #ed8e22;
+    border-radius: 6px;
+    border:  none
+}
+.pr1-content {
+    width: 100%;
+    overflow: hidden
+}
+
+.pr1-list {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    background-color: #fff
+}
+.pr1-content li {
+    width: 33%;
+    float: left;
+}
+.pr1-content img {
+    margin-bottom: 20px;
+    border: 1px solid #000;
+}
+
+.pr1-content p {
+    display: block;
+    float: left;
+    width: 50%;
+    font-size: 24px;
+}
+.pr1-content b {
+    float: left;
+    padding: 6px 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ed8e22;
+}
+
+.banner2 {
+    background-image: url(../images/yangtai/pr5.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: left
+}
+.banner2-con {
+    margin: 220px auto 180px auto;
+    text-align: left
+}
+.banner2-con h1 {
+    text-align: left;
+    font-size: 80px;
+    color: #fff;
+}
+.banner2-con p {
+    font-size: 20px;
+    text-align: left
+}
+
+.banner2-con .bt {
+    padding: 6px 40px;
+    font-weight: 400;
+    font-size: 35px;
+    color: #fff;
+    background-color: #ed8e22;
+}
+
+.pr2 {
+    margin: 100px auto 0 auto;
+    padding-bottom: 50px;
+    background-color: #f8f8f8
+}
+.pr2-title {
+    margin-top: -42px;
+    margin-bottom: 20px;
+}
+
+.pr2-des {
+    float: left
+}
+.pr2-des h2 {
+    margin: 10px 0 0 0;
+    font-size: 40px;
+    text-align: left;
+    line-height: 46px;
+}
+.pr2-des p {
+    font-size: 28px;
+    text-align: left;
+}
+.pr2 .bt {
+    margin: 20px 70px 0 0;
+    float: right;
+    padding: 6px 40px;
+    font-weight: 400;
+    font-size: 35px;
+    color: #fff;
+    background-color: #ed8e22;
+}
+
+.main-tit h2 {
+    color: #fff
+}
+.main-tit p {
+    color: #fff;
+    text-transform:Uppercase 
+}
+
+.pr3 {
+    padding: 40px 0 0 0;
+    background-color:#f5f5f5
+}
+.pr3-head {
+    overflow: hidden
+}
+.pr3-head img{
+    float: left;
+}
+.pr3-head .pr3-head-right {
+    float: right;
+    background-color: #fff;
+}
+.pr3-head .pr3-head-right p {
+    margin: 0;
+    text-align: left;
+    padding-left: 170px;
+    line-height: 90px;
+}
+.pr3-head .pr3-head-right p b {
+    float: right;
+    margin: 30px 150px 0 0;
+    padding: 6px 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ed8e22;
+    line-height: initial;
+}
+.pr3-list {
+    margin-top: 50px;
+}
+.pr3-list li {
+    float: left;
+    background-color: #fff
+}
+.pr3-list li p {
+    margin: 0;
+    text-align: left;
+    padding-left: 70px;
+    line-height: 90px;
+}
+.pr3-list li p b {
+    float: right;
+    margin: 30px 150px 0 0;
+    padding: 6px 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ed8e22;
+    line-height: initial;
+}
+.pr4 {
+    text-align: center
+}
+.pr4 h2 {
+    margin-top: 80px;
+    font-size: 50px;
+}
+/* yuyue */
+.yuyue4 {
+    background: #000
+}
+.yuyue4 > div.container {
+	width:1200px !important;
+	margin:20px auto;
+}
+.yuyue4 p span {
+    font-size: 24px;
+    color: #ffc519
+}
+.yuyue4 .sj i{
+    display: inline-block;
+    margin: 20px 15px;
+    width: 54px;
+    height: 54px;
+    background: url(../images/tip_04.png) no-repeat;
+    cursor: pointer
+}
+
+.yuyue4 ul li {
+    display: inline-block;
+     width: 71px;
+    height: 71px;
+    background: #f7c73a;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 71px;
+    font-size: 24px;
+    color: #000;
+    margin: 10px
+}
+
+
+.index-yangtai-sg {
+	width:100%;
+    background-image: url(../images/yangtai/sg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    display: table;
+
+}
+
+.index-yangtai-sg .sg-con {
+	width:1200px;
+	margin:50px auto 100px auto;
+	padding:0;
+	background:#fff;
+	overflow: hidden;
+}
+
+.sg-con ul {
+	margin:0;
+	padding:0
+}
+.sg-con ul li {
+	width:33%;
+	height:259px;
+	float:left;
+	background:#fff;
+	position:relative;
+	margin-bottom:8px
+}
+.sg-con ul li div {
+	margin: 0 5px;
+    width: 389px;
+    height: 259px;
+    background: #ffc519;
+}
+.sg-con ul li div h3 {
+    margin: 0;
+    font-size: 90px;
+    text-align: left;
+    padding: 25px 0 0 42px;
+}
+
+.sg-con ul li div p{
+    font-size: 39px;
+    text-align: left;
+    padding: 0px 0 0 42px;
+}
+
+.sg-con ul li div span {
+    display: block;
+    position: relative;
+    text-align: left;
+    background: none;
+    font-size: 20px;
+    padding: 8px 0 0 42px;
+}
+
+.sg-con ul li img {
+	width:389px;
+	height:259px
+}
+.sg-con ul li span{
+    display: black;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    color: #000;
+    background: #fff;
+    padding: 5px 10px;
+    font-size: 24px;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}
+
+
+
+.xiu {
+    background: #dab866;
+}
+
+.xiu .main-tit {
+    border-bottom: 10px solid #b29b5b
+}
+
+.xiu .main-tit h1,
+.xiu .main-tit p {
+    color: #dab866
+}
+
+.xiu .xiu-list {
+    margin: 30px auto;
+    padding: 0 40px;
+}
+
+.xiu .xiu-list ul {
+    background: #fff;
+    overflow: hidden
+}
+
+.xiu .xiu-list ul li {
+    float: left;
+    padding: 10px;
+    width: 50%;
+}
+
+.xiu .xiu-list img {
+    width: 100%
+}

@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    baseURL: (process.env.NODE_ENV === 'production' ? 'http//jumi.tt' : 'http://localhost:3000')
+    baseURL: (process.env.NODE_ENV === 'production' ? 'http//www.9-mi.cn' : 'http://localhost:3000')
   },
   // Headers of the page
   head: {

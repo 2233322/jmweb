@@ -1,0 +1,228 @@
+.box-kac h1 {
+  color: #b72726
+}
+
+.box-kac h3 {
+  color: #5f5f5f
+}
+
+.kac-content {
+  position: relative;
+  margin: 40px 0 50px 0
+}
+
+.kac-content b {
+  position: absolute;
+  top: 0;
+  right: -50px;
+  display: block;
+  width: 300px;
+  height: 167px;
+  cursor: pointer
+}
+
+.flow {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #ececec
+}
+
+.box-form {
+  background-image: url(./ygf/t1-bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.apply {
+  padding: 86px 0 80px 0;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.apply-head {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.apply-head-left {
+  padding-right: 10px;
+  font-size: 28px;
+  color: #fff;
+  border-right: 3px solid #fff
+}
+
+.apply-head-right {
+  padding-left: 10px;
+  font-size: 34px;
+  font-weight: bold
+}
+
+.apply-form {
+  margin-top: 50px;
+  text-align: center
+}
+
+.apply-form .box-input {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  width: 50%;
+  margin: 0 auto 20px auto;
+  background-color: #d14544;
+}
+
+.apply-form label {
+  margin-bottom: 0;
+  padding: 0 24px;
+  line-height: 45px;
+  font-size: 26px;
+  background-color: #b72726;
+}
+
+.apply-form input {
+  flex: 1;
+  padding: 10px;
+  height: 45px;
+  border: none
+}
+
+.apply p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.apply .apply-bnt {
+  cursor: pointer
+}
+
+.apply .ajax-result {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #ff0000
+}
+
+.box-sun-t1 {
+  margin-top: 80px
+}
+
+.sun-slogan {
+  display: flex;
+}
+
+.sun-slogan-line {
+  flex: 1;
+  margin-bottom: 37px;
+  border-bottom: 2px solid #dde0e1;
+}
+
+.sun-show-t1 {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between
+}
+
+.sun-left {
+  padding-right: 55px;
+  flex: 1;
+}
+
+.sun-show-t1 .carousel-indicators {
+  bottom: -170px;
+}
+
+.sun-show-t1 .carousel-indicators li {
+  margin: 0 10px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  text-indent: 0;
+  cursor: pointer;
+}
+
+.sun-show-t1 .carousel-indicators li img {
+  border: 2px solid #efefef
+}
+
+.sun-show-t1 .carousel-indicators li.active img {
+  border: 2px solid #ea9f0e
+}
+
+.sun-show-t1 .carousel-indicators li p {
+  font-size: 14px;
+  color: #4f4f4f
+}
+
+.box-sun {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.box-sun .sun-slogan-line {
+  margin-bottom: 62px;
+}
+
+.box-sun-drawing {
+  background-color: #f9f1f9
+}
+
+.box-sun-tearoom {
+  background-color: #ebeeff
+}
+
+.box-sun-studyroom {
+  background-color: #def0f4
+}
+
+.box-sun-space {
+  background-color: #f6ece8
+}
+
+.box-sun-space .sun-slogan-line {
+  margin-bottom: 64px;
+}
+
+.box-custom {
+  padding-top: 60px;
+  text-align: center
+}
+
+.custom-border {
+  margin-top: 60px;
+  background-color: #222121
+}
+
+.custom-content {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  max-width: 1300px;
+  background-color: #484848
+}
+
+.custom-content img {
+  margin-bottom: 30px
+}
+
+.design {
+  background-color: #484848
+}
+
+.brand {
+  background-color: #2f2f2f
+}
+
+.brand-border {
+  max-width: 1060px;
+  padding-bottom: 12px;
+  background-color: #4e4d4d
+}
+
+.brand-border img {
+  border-top: 96px solid #fff;
+  border-right: 48px solid #fff;
+  border-left: 48px solid #fff;
+  border-bottom: 88px solid #fff;
+}

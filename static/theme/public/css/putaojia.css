@@ -1,0 +1,255 @@
+.banner {
+    padding: 40vh 0 23vh 0;
+    background-image: url(../images/putaojia/main-banner1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: table;
+}
+
+.banner .banner-con {
+    width: 669px;
+    height: 202px;
+    margin:0 auto;
+    padding: 46px;
+    background: url(../images/putaojia/bg-1.png) top no-repeat;
+}
+.banner .banner-con h1 {
+    font-size: 35px;
+    line-height: 55px;
+    color: #fff
+}
+
+.yuyue {
+    padding-top:140px;
+    padding-bottom:110px;
+    background: #f1efd8;
+}
+.yuyue-left {
+    height: 963px;
+    padding: 160px 0 0 41px;
+    background: #f1efd8 url(../images/putaojia/2.png) no-repeat top left;
+}
+.yuyue-left > div {
+    padding: 20px 78px;
+    width: 433px;
+    height: 420px;
+    margin-bottom: 46px;
+}
+
+.yuyue-left .from-tit {
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.from-select {
+    position: relative
+}
+
+.from-select select {
+  appearance:none;  
+  -moz-appearance:none;  
+  -webkit-appearance:none;  
+  background:#fff url(../images/putaojia/bt-1.png) no-repeat right;
+  cursor: pointer
+
+}
+
+.yuyue-left input,
+.yuyue-left select {
+    border: 1px solid #bd9e29;
+    border-radius:0;
+    height: 44px
+}
+
+.yuyue-left button {
+    background: #ffca2b;
+    border-radius:0;
+    border: none;
+    padding: 8px 45px;
+    font-size: 24px;
+    margin: 0 auto;
+    color: #000;
+    display: block;
+}
+
+.yuyue-left button:focus,
+.yuyue-left button.focus {
+  color: #333;
+  background-color: #eac75d;
+  border-color: ec5e66;
+}
+.yuyue-left button:hover {
+  color: #333;
+  background-color: #eac75d;
+  border-color: ec5e66;
+}
+
+.yuyue-right div{
+        padding: 0 0 0 37px;
+
+}
+
+.yuyue-right h1 {
+    font-size: 45px;
+    padding-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    line-height: 55px;
+    border-bottom: 2px solid #bbb6a3;
+    text-align: left
+}
+.yuyue-right h3 {
+    font-size: 30px;
+    color: #e16c30
+}
+
+.yuyue-right .from_list {
+    margin-bottom: 30px;
+    height: 350px;
+    overflow: hidden;
+    padding: 30px 60px;
+
+}
+
+.yuyue-right .from_list span {
+ line-height: 35px;
+ padding-right: 40px;
+ font-size: 24px;
+ color: #333
+}
+
+.main-tit {
+    background: #f1efd8 url(../images/putaojia/bg-2.png) repeat-x;
+}
+
+.putaojia {
+    padding-top: 86px;
+}
+.cp-order {
+    height: 678px;
+}
+.cp-order2 > div{
+    float: right
+}
+.cp-order > div {
+    padding: 130px 0px;
+    width: 346px;
+}
+.cp-order h2 {
+    font-size: 50px;
+    padding-bottom: 55px;
+}
+.cp-order p {
+    text-align: left;
+    padding-left: 70px;
+    font-size: 30px;
+    color: #333
+}
+
+.cp-order button {
+    background: #ffca2b;
+    border-radius:0;
+    border: none;
+    padding: 10px 40px;
+    font-size: 28px;
+    margin: 40px auto;
+    color: #000;
+    display: block;
+}
+
+.cp-order button:focus,
+.cp-order button.focus {
+  color: #333;
+  background-color: #eac75d;
+  border-color: ec5e66;
+}
+.cp-order button:hover {
+  color: #333;
+  background-color: #eac75d;
+  border-color: ec5e66;
+}
+
+.putaojia .cp-list ul li {
+    float: left;
+    width: 33.33%
+}
+.putaojia .cp-list li p {
+    font-size: 30px;
+    cursor: pointer
+}
+
+
+.cp-order3 .cp-list1 li {
+    padding: 10px;
+    float: left;
+    background: #f5f5f5;
+    position: relative
+}
+
+.cp-order3 .cp-list1 p {
+    position: absolute;
+    padding: 18px 0 5px 35px;
+    margin: 0;
+    width: 569px;
+    left: 10px;
+    bottom: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    font-size: 24px;
+    color: #000
+}
+
+.cp-order3 .cp-list1 small {
+    display: block;
+    font-size: 18px;
+    color: #333
+}
+
+.cp-order3 .cp-list1 li b {
+       position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: url(../images/putaojia/bg-3.png) no-repeat;
+    font-size: 28px;
+    padding: 8px 38px 11px 22px;
+	font-weight: inherit;
+}
+
+.cp-order3 .cp-list2 img{   
+    padding: 36px 7px;
+}
+
+
+
+.xiu {
+    background:#dab866;
+}
+.xiu .main-tit {
+    border-bottom: 10px solid #b29b5b
+}
+.xiu .main-tit h1,
+.xiu .main-tit p{
+    color: #dab866
+}
+.xiu .xiu-list {
+    margin: 30px auto;
+    padding: 0 40px;
+   
+}
+.xiu .xiu-list ul {
+    background: #fff;
+     overflow: hidden
+    
+}
+.xiu .xiu-list ul li {
+    float: left;
+    padding: 10px;
+    width: 50%;
+}
+
+.xiu .xiu-list  img {
+    width: 100%
+}

@@ -1,0 +1,172 @@
+.box-kac h1 {
+  color: #b72726
+}
+
+.box-kac h3 {
+  color: #5f5f5f
+}
+
+.kac-content {
+  position: relative;
+  margin: 40px 0 50px 0
+}
+
+.kac-content b {
+  position: absolute;
+  top: 0;
+  right: -50px;
+  display: block;
+  width: 300px;
+  height: 167px;
+  cursor: pointer
+}
+
+.flow {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #ececec
+}
+
+.box-form {
+  background-color: #2c2c2c;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.apply {
+  padding: 86px 0 80px 0;
+  background-color: #212121
+}
+
+.apply-head {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  align-items: center
+}
+.apply-head-right {
+  padding-left: 10px;
+  font-size: 46px;
+ color: #fff;
+  font-weight: bold
+}
+
+.apply-form {
+  margin-top: 50px;
+  text-align: center
+}
+
+.apply-form .box-input {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  width: 50%;
+  margin: 0 auto 20px auto;
+  background-color: #f55351;
+}
+
+.apply-form label {
+  margin-bottom: 0;
+  padding: 0 24px;
+  line-height: 45px;
+  font-size: 26px;
+  background-color: #e3302e;
+}
+
+.apply-form input {
+  flex: 1;
+  padding: 10px;
+  height: 45px;
+  border: none
+}
+
+.apply p {
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.apply .apply-bnt {
+  cursor: pointer
+}
+
+.apply .ajax-result {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #ff0000
+}
+
+.pr-chep {
+  margin-bottom: 125px;
+}
+
+.sys {
+  margin-top: 100px;
+  text-align: center
+}
+.sys .head {
+  padding: 40px 0 60px 0;
+  background-color: #f7f7f7;
+  text-align: center
+}
+.box-chep {
+  padding-top: 120px;
+  text-align: center;
+  background: #fff url(./chep/chep-bg.jpg) repeat-y center;
+  background-position: center -530px;
+}
+.chep-item {
+  display: flex;
+  margin:100px auto 0 auto;;
+  width: 1300px;
+  height: 655px
+}
+
+.single-carport {
+  padding: 11px 0 0 35px;
+  background-image: url(./chep/single-carport.png)
+}
+  .double-carport {
+  padding: 11px 35px 0 0;
+  background-image: url(./chep/double-carport.png)
+}
+
+.shark-carport {
+  padding: 11px 35px 0 0;
+  background-image: url(./chep/shark-carport.png)
+}
+
+.chep-item-content {
+  position: relative;
+  width: 820px;
+  height: 634px;
+}
+.hot {
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+
+.chep-item-title {
+   flex: 1;
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center
+  
+}
+.chep-item-title h3 {
+  color: #526a87;
+  font-size: 24px;
+  font-weight: 400
+}
+.chep-item-title .goapply-bnt {
+  margin-top: 212px;
+  width: 270px;
+  height: 100px;
+}

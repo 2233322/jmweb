@@ -1,0 +1,107 @@
+.bac-box {
+  margin-top: 20px;
+  padding: 55px 0 50px 0;
+  background-color: #ebebeb
+}
+.kac-content {
+  position: relative;
+  margin: 40px 0 50px 0
+}
+
+.kac-content b {
+  position: absolute;
+  top: 0;
+  right: -50px;
+  display: block;
+  width: 350px;
+  height: 167px;
+  cursor: pointer
+}
+.flow {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f9f9f9
+}
+
+.box-form {
+  background-image: url(./ptj/t1-bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.apply {
+  padding: 86px 0 80px 0;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.apply-head {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.apply-head-left {
+  padding-right: 10px;
+  font-size: 28px;
+  color: #fff;
+  border-right: 3px solid #fff
+}
+
+.apply-head-right {
+  padding-left: 10px;
+  font-size: 34px;
+  font-weight: bold
+}
+
+.apply-form {
+  margin-top: 50px;
+  text-align: center
+}
+
+.apply-form .box-input {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  width: 50%;
+  margin: 0 auto 20px auto;
+  background-color: #d14544;
+}
+
+.apply-form label {
+  margin-bottom: 0;
+  padding: 0 24px;
+  line-height: 45px;
+  font-size: 26px;
+  background-color: #b72726;
+}
+
+.apply-form input {
+  flex: 1;
+  padding: 10px;
+  height: 45px;
+  border: none
+}
+
+.apply p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.apply .apply-bnt {
+  cursor: pointer
+}
+
+.apply .ajax-result {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #ff0000
+}
+
+.box-case {
+  padding-bottom: 66px;
+  text-align: center;
+  background-color: #ebebeb;
+}

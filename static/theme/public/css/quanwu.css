@@ -1,0 +1,433 @@
+body {
+    background: url(../images/quanwu/bg2.jpg) repeat;
+}
+
+.banner {
+    padding: 40vh 0 23vh 0;
+    background-image: url(../images/quanwu/main-banner1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: table;
+}
+
+.banner .banner-con {
+    width: 976px;
+    height: 307px;
+    margin: 0 auto;
+    padding: 46px;
+    background: url(../images/quanwu/bg-1.png) top no-repeat;
+}
+
+.banner .banner-con h1 {
+    font-size: 120px;
+    color: #fff
+}
+
+.banner .banner-con small {
+    font-size: 60px;
+    color: #fff
+}
+
+.tiyan {
+    height: 500px;
+    background-position: top center;
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 6vh 0;
+    display: table;
+}
+
+.tiyan h2 {
+    color: #484647;
+    font-size: 48px
+}
+
+.tiyan h2 span {
+    color: #df413c;
+    font-weight: bold;
+}
+
+.tiyan hr {
+    border-top:1px solid #959595
+}
+
+.tiyan .container {
+    width: 1280px;
+}
+.tiyan .content {
+    margin-bottom: 50px
+}
+.tiyan .content ul {
+    padding-left: 0
+}
+.tiyan .content ul li{
+    display: inline-block;
+    width: 128px;
+    height: 162px;
+    background: url(/chugui/images/tiyan.png);
+    background-repeat: no-repeat;
+    margin: 0 6px
+}
+
+.tiyan .content ul li span {
+    font-size: 18px;
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 128px;
+    margin-top: 86px;
+    padding: 0 14px;
+}
+
+.tiyan .free  {
+    margin-top: -30px;
+    width: 120px;
+    margin: -30px auto;
+    color: #484647;
+    background: #f3ead9;
+    font-size: 14px
+}
+
+.yuyue {
+    padding-bottom:80px;
+}
+.yuyue .content {
+    margin: 0 auto;
+	padding:20px 0 50px 30px;
+    background: #c3a14e;
+    padding-bottom: 30px;
+}
+.yuyue .content h2 {
+	padding-bottom: 26px;
+    text-align: center;
+    font-size: 64px;
+    color: #fff;
+
+}
+
+.yuyue .row {
+    margin-top: 40px;
+	padding-left:40px;
+}
+.yuyue .form-horizontal .form-group {
+    margin-bottom: 30px
+}
+.yuyue .form-horizontal .control-label {
+    padding-left: 44px;
+    padding-top: 0px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 48px
+}
+
+.yuyue .form-control {
+    width: 80%;
+    height: 50px
+}
+
+.yuyue .btn-primary {
+color: #fff;
+    background-color: #93701e;
+    border-color: #93701e;
+    padding: 10px 67px;
+    font-size: 30px;
+    margin-left: 48px;
+}
+.yuyue .btn-primary:focus,
+.yuyue .btn-primary.focus {
+  color: #fff;
+  background-color: #93701e;
+  border-color: #93701e;
+}
+.yuyue .btn-primary:hover {
+  color: #fff;
+  background-color: #93701e;
+  border-color: #93701e;
+}
+
+
+.yuyue .from_con b {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: red;
+    line-height: 30px;
+}
+
+.yuyue em {
+    height: 20px;
+    position: relative;
+    text-align: center;
+    color: #222;
+    background: #ec9128;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 2px 12px;
+    margin: auto 6px;
+}
+
+.yuyue .from_con{
+    margin: 0;
+    padding: 0;
+    text-align: center
+    }
+.yuyue .from_list{
+    height:260px;
+    width:555px;
+    font-size:16px;
+    overflow: hidden;
+    }
+.yuyue .from_list li {
+    line-height: 35px
+}
+.yuyue .from_list li span {
+    margin-right: 20px;
+    }
+.main-tit {
+    background: #f1efd8 url(../images/putaojia/bg-2.png) repeat-x;
+}
+
+.quanwu-main {
+    width: 1164px;
+    height: 758px;
+    margin: 100px 0 140px 0;
+    position: relative;
+    background: #fff url(../images/quanwu/quanwu.jpg) no-repeat top center
+}
+
+.quanwu-main>div {
+    position: absolute;
+    background: url(../images/quanwu/bg-3_02.png) no-repeat bottom left;
+}
+
+.tip1 {
+    top: 10px;
+    left: 320px;
+}
+.tip2 {
+    top: -30px;
+    left: 780px;
+}
+
+.tip3 {
+    top: 400px;
+    left: 436px;
+}
+.tip4 {
+    top: 316px;
+    left: 810px;
+}
+
+.tip5 {
+    top: 560px;
+    left: 620px;
+}
+
+.quanwu-main i {
+    display: block;
+    float: left;
+    width: 31px;
+    height: 45px;
+    background: url(../images/quanwu/bg-3_01.png) no-repeat top center;
+    -webkit-animation: piaof 4s ease-in-out infinite;
+    -moz-animation: piaof 4s ease-in-out infinite;
+    -o-animation: piaof 4s ease-in-out infinite;
+    animation: piaof 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes piaof {
+    0%,
+    100% {
+        -webkit-transform: translateY(0);
+    }
+    50% {
+        -webkit-transform: translateY(-10px);
+    }
+}
+
+@-moz-keyframes piaof {
+    0%,
+    100% {
+        -moz-transform: translateY(0);
+    }
+    50% {
+        -moz-transform: translateY(-10px);
+    }
+}
+
+@-o-keyframes piaof {
+    0%,
+    100% {
+        -o-transform: translateY(0);
+    }
+    50% {
+        -o-transform: translateY(-10px);
+    }
+}
+
+@keyframes piaof {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.quanwu-main span {
+    margin-left: 10px;
+    padding: 2px 20px;
+    font-size: 22px;
+    background: #ffca2b
+}
+
+.cp-menu {
+    padding-top:75px;
+    overflow: hidden
+}
+.cp-menu div {
+    float: left;
+}
+.cp-menu .cp-menu-1 {
+    width: 275px;
+    height: 84px;
+    background: url(../images/quanwu/bg-4.png) no-repeat top left;
+    font-size: 0
+}
+.cp-menu .cp-menu-2 {
+    width: 440px;
+    height: 84px;
+    background: url(../images/quanwu/bg-5.png) repeat-x bottom left;
+    font-size: 0
+}
+.cp-menu .cp-menu-3 {
+    margin-top: 33px;
+    border-bottom: 1px solid #938789
+}
+.cp-menu .cp-menu-3 li {
+    float: left;
+    padding:3px 10px;
+    margin: 2px 2px 0 2px;
+    background:#392526;
+    color: #fff;
+    border:1px solid #392526;
+    border-bottom: none;
+    cursor: pointer
+}
+
+.cp-menu li.current {
+    background: none;
+    color: #392526
+}
+.cp-menu li.cp-more {
+    border: none;
+    background: none;
+    color: #392526
+}
+
+.cp-order {
+    margin-top: 25px;
+    margin-bottom: 60px;
+    padding: 10px;
+    background: #eee5d4;
+    overflow: hidden
+}
+
+.cp-order > div {
+    float: left;
+    width: 390px;
+    height: 517px;
+    padding-top: 40px;
+    background:#fff
+}
+.cp-order h2 {
+    font-size: 36px;
+}
+.cp-order p {
+    font-size: 24px;
+    color: #666
+}
+.cp-order img {
+    float: right;
+    display: block;
+}
+
+.cp-order button {
+    background: #c3a14f;
+    border-radius:0;
+    border: none;
+    padding: 10px 40px;
+    font-size: 28px;
+    margin: 95px auto 60px auto;
+    color: #fff;
+    display: block;
+}
+
+.cp-order button:focus,
+.cp-order button.focus {
+  color: #333;
+  background-color: #c3a14f;
+  border-color: ec5e66;
+}
+.cp-order button:hover {
+  color: #333;
+  background-color: #c3a14f;
+  border-color: ec5e66;
+}
+
+.cp-order2 {
+    padding-top: 60px;
+    padding-bottom: 110px;
+    overflow: hidden
+}
+
+.cp-order2 img {
+    display: block;
+    float: left
+}
+
+
+.xiu {
+    background: #dab866;
+}
+
+.xiu .main-tit {
+    border-bottom: 10px solid #b29b5b
+}
+
+.xiu .main-tit h1,
+.xiu .main-tit p {
+    color: #dab866
+}
+
+.xiu .xiu-list {
+    margin: 30px auto;
+    padding: 0 40px;
+}
+
+.xiu .xiu-list ul {
+    background: #fff;
+    overflow: hidden
+}
+
+.xiu .xiu-list ul li {
+    float: left;
+    padding: 10px;
+    width: 50%;
+}
+
+.xiu .xiu-list img {
+    width: 100%
+}

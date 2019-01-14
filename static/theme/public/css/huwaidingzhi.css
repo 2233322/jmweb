@@ -1,0 +1,401 @@
+.banner > div {
+    position: relative
+}
+
+.banner .banner-con {
+    position: absolute;
+    top: 16vh;
+    left: 1vh;
+    width: 372px;
+    height: 484px;
+    padding: 20px;
+    background:rgba(255,255,255,0.6)!important;
+}
+
+.banner .banner-con > .banner-border {
+    width: 100%;
+    height: 100%;
+    padding-top: 75px;
+    border:3px solid #e4d1a5;
+    text-align: center;
+    color: #333333;
+}
+
+.banner .banner-con h3 {
+    font-size: 54px;
+}
+
+.banner .banner-con p {
+    margin-top: 50px;
+    font-size: 32px
+}
+
+.banner .banner-con b {
+    position:relative; 
+    display: block;
+    width: 258px;
+    height: 60px;
+    margin: 0 auto;
+    background-image: url(../images/huwaidingzhi/bt.png);
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer
+
+}
+
+.mianfei {
+    padding:50px 0 20px 0;
+    background: #f0f0f0
+}
+.mianfei > div {
+    padding:0 90px;
+}
+.mianfei ul li {
+    display: inline-block;
+    margin: 0 75px;
+    text-align: center;
+    cursor: pointer
+
+}
+
+.mianfei ul li p {
+    font-size: 24px;
+    color: #c9aa5e;
+    line-height: 56px
+}
+
+/*表单*/
+.yuyue {
+    padding-bottom: 130px;
+    background: #f0f0f0
+}
+
+.yuyue .container > div {
+        border: 20px solid #ffc519;
+}
+
+.yuyue .container  div.first {
+    border-right: 20px solid #ffc519
+}
+
+.yuyue .from-tit{
+    line-height: 1px;
+    border-left: 100px solid #ea9f0e;
+    border-right: 100px solid #ea9f0e;
+    text-align: center;
+    margin: 45px auto 67px auto;
+    color: #ea9f0e;
+    font-size: 44px;
+    width: 80%;
+}
+
+
+.yuyue input.form-control {
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 90%;
+    height: 65px;
+    font-size: 30px;
+    color: #e9a51e;
+}
+
+.yuyue .btn {
+    display: block;
+    margin: 0 auto;
+    color: #ffc519;
+    background-color: #e63641;
+    border-color: #e63641;
+    padding: 10px 99px;
+    font-size: 30px;
+    margin: 20px auto 54px;
+}
+.yuyue .btn:focus,
+.yuyue .btn.focus {
+  color: #ffc519;
+  background-color: #ec5e66;
+  border-color: ec5e66;
+}
+.yuyue .btn:hover {
+  color: #ffc519;
+  background-color: #ec5e66;
+  border-color: ec5e66;
+}
+
+.yuyue .from_con {
+    text-align: center
+}
+.yuyue .from_con h3{
+    font-size:36px;
+    }
+.yuyue .from_con h3 em{
+    color: #e60012;
+    }
+.yuyue .from_con p{
+    font-size:30px;color: #434343;
+    }
+
+.yuyue .from_list {
+    height: 270px;
+    overflow: hidden
+}
+
+.yuyue .from_list li {
+    line-height: 35px
+}
+.yuyue .from_list li span {margin-right: 20px;}
+
+
+.sanbu {
+    margin: 0 auto 30px auto;
+    background: url(../images/huwaidingzhi/tbg.png) repeat;
+}
+.sanbu > div {
+    background: url(../images/huwaidingzhi/sanbu.png) no-repeat top center;
+    height: 241px
+}
+.sanbu > div p{
+    display: inline-block;
+        padding: 135px 90px 0 72px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer
+}
+
+.sanbu > div p span {
+    display: block;
+    font-size: 18px
+}
+
+.sanbu > div p:first-child {
+    width: 300px;
+        padding: 80px 0px;
+        vertical-align: top;
+        font-size: 36px;
+}
+
+.sanbu > div p:first-child span {
+    font-size: 22px
+}
+
+.sheng > div {
+    margin: 20px auto 110px auto;
+    height: 534px;
+    background: url(../images/huwaidingzhi/sheng-bg.png) no-repeat top center;
+}
+
+.sheng > div h1 {
+    line-height: 100px;
+    color: #000
+}
+
+.sheng > div span {
+    color: #fff
+}
+
+
+.dingzhi1 {
+    position: relative
+}
+
+.dingzhi1 .dingzhi-ty {
+    position: absolute;
+    top:30vh
+}
+
+.dingzhi1 .dingzhi-ty p {
+    padding: 26px 0;
+    font-size: 24px;
+    text-align: left
+}
+
+.dingzhi1 .dingzhi-ty .b {
+    padding: 6px 20px;
+    background: #c9a95b;
+    border-color:#c9a95b;
+    color: #fff;
+    font-size: 24px;
+	    border-radius: 0;
+}
+
+.dingzhi1 .cont-list {
+    margin: 20px auto 32px auto
+}
+
+.dingzhi1 .cont-list ul li{
+    position: relative;
+    display: inline-block;
+    float: left
+}
+
+.dingzhi1 .cont-list ul li p {
+    position: absolute;
+    bottom: 10px;
+    background: rgba(255,255,255,0.6)!important;
+    width: 570px;
+    margin: 0 10px;
+    padding: 10px 36px 0 36px ;
+    text-align: left;
+    font-size: 32px
+}
+.dingzhi1 .cont-list p span {
+    font-size: 26px
+} 
+
+.dingzhi1 .cont-list small {
+    display: block;
+    font-size: 20px
+}
+.dingzhi1 .cont-list ul + img{
+    margin-top:10px;
+    widows: 100%
+}
+.dingzhi1 .cont-list ul li b {
+     padding: 8px 15px;
+    display: block;
+    width: 117px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: url(../images/huwaidingzhi/dingzhi-bt.png) no-repeat top center;
+    font-size: 34px;
+    font-weight: inherit;
+    line-height: 40px;
+    cursor: pointer
+}
+
+.main-tit {
+    background: url(../images/huwaidingzhi/tbg2.png) repeat-x;
+    padding:18px 0 8px 0;
+}
+.dingzhi2 {
+    background: #f0f0f0
+}
+.dingzhi2 .bg{
+    width: 100%;
+    background-image: url(../images/huwaidingzhi/dingzhi2-bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 6vh 0;
+    display: table;
+    overflow: hidden
+}
+
+.dingzhi2 .bg .con-top {
+    padding: 40px;
+    background: #fff;
+    overflow: hidden;
+    text-align: left
+}
+.dingzhi2 .bg .con-top > img {
+    display: block;
+    float: left
+}
+
+.dingzhi2 .bg .con-top > div {
+    float: right;
+    padding: 140px 40px;
+}
+
+.dingzhi2 .bg .con-top h3 {
+    font-size: 42px;
+    color: #000;
+    line-height: 80px
+}
+
+.dingzhi2 .bg .con-top p {
+    text-align: left;
+    font-size: 22px;
+    color: #333
+}
+
+.dingzhi2 .bg .con-top .b {
+    margin: 90px 0 0 0;
+    padding: 6px 20px;
+    background: #c9a95b;
+    border-color: #c9a95b;
+    color: #fff;
+    font-size: 24px;
+	    border-radius: 0;
+}
+
+.dingzhi2 .cont-list ul li {
+    float: left;
+    margin-bottom: 45px
+}
+
+.dingzhi2 .cont-list p {
+    padding:10px 20px;
+    margin: 0;
+    font-size: 26px;
+    color: #333;
+    text-align: left
+}
+
+.dingzhi2 .cont-list a {
+    padding: 0 20px;
+    font-size: 32px;
+    color: #000;
+    text-decoration: none
+}
+
+.dingzhi2  .b {
+    padding: 2px 20px;
+    background: #c9a95b;
+    border-color: #c9a95b;
+    color: #fff;
+    font-size: 24px;
+    margin: -16px auto auto 124px;
+	border-radius: 0;
+}
+
+.dingzhi2 .cont-p1 {
+    position: relative
+}
+.dingzhi2 .cont-p1  div {
+    position: absolute;
+        right: 30px;
+    top: 230px;
+   text-align: left
+}
+
+.dingzhi2 .cont-p1 h3 {
+    font-size: 42px
+}
+
+.dingzhi2 .cont-p1 p {
+    text-align: left;
+    margin-bottom: 60px
+}
+
+
+.dingzhi2 .cont-p1 .b {
+     margin: -16px auto auto 0;
+
+}
+.xiu {
+    background:#dab866
+}
+.xiu .main-tit {
+    border-bottom: 10px solid #b29b5b
+}
+.xiu .main-tit h1,
+.xiu .main-tit p{
+    color: #dab866
+}
+.xiu .xiu-list {
+    margin: 30px auto;
+    padding: 0 40px;
+}
+.xiu .xiu-list ul {
+    padding: 10px;
+    background: #fff;
+    
+}
+.xiu .xiu-list ul li {
+    display: inline-block
+}

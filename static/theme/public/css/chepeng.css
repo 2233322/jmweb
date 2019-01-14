@@ -1,0 +1,240 @@
+.banner {
+    height: 500px;
+    background-image: url(../images/chepeng/main-banner1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: table;
+}
+.banner > div.container {
+    width: 1400px;
+}
+
+.banner .banner-con {
+    float: right;
+    padding: 40vh 0 50vh 0;
+    width: 55rem;
+}
+.banner .banner-con h1 {
+    font-size: 45px;
+    line-height: 55px
+}
+.banner .banner-con img {
+    width: 100%
+}
+
+.yuyue {
+    background: #f1efd8;
+}
+.yuyue-left {
+    height: 1049px;
+    padding: 240px 0 0 60px;
+    background: #f1efd8 url(../images/chepeng/2.png) no-repeat top left;
+}
+.yuyue-left > div {
+    padding: 36px 78px;
+    width: 423px;
+    height: 420px;
+    background: #ffd639;
+        margin-bottom: 46px;
+}
+
+.yuyue-left .from-tit {
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.yuyue-left input {
+    border: 1px solid #bc9e29;
+    border-radius:0;
+    height: 44px
+}
+.yuyue-left button {
+    background-image: url(../images/chepeng/tubiao.png);
+    background-repeat: no-repeat;
+    border: none;
+    padding: 8px 45px;
+    font-size: 24px;
+    margin: 0 auto;
+    display: block;
+}
+
+.yuyue-right div{
+        padding: 34px 0 0 37px;
+
+}
+
+.yuyue-right h1 {
+    font-size: 45px;
+    padding-bottom: 20px;
+    color: #e16c30;
+    font-weight: bold;
+    line-height: 55px;
+    border-bottom: 2px solid #bbb6a3;
+    text-align: left
+}
+.yuyue-right h3 {
+    font-size: 30px;
+    color: #e16c30
+}
+
+.yuyue-right .from_list {
+    margin-bottom: 150px;
+    height: 350px;
+    overflow: hidden;
+    padding: 30px 60px;
+
+}
+
+.yuyue-right .from_list span {
+ line-height: 35px;
+ padding-right: 40px;
+ font-size: 24px;
+ color: #333
+}
+
+
+
+.chepeng-content {
+    background-image: url(../images/chepeng/bg_01.jpg);
+    background-position: top center;
+    background-repeat: repeat;
+    color: white;
+    text-align: center;
+    display: table;
+    padding-top: 145px;
+    padding-bottom: 150px;
+}
+
+.cp-vs h2 {
+    text-align:left;
+    font-size:45px;
+    color: #e05c22
+}
+.cp-vs > div {
+    background: rgba(218, 216, 195, 0.6);
+    padding: 22px;
+}
+.cp-vs table {
+    margin: 0;
+    color: #666;
+    font-size: 24px;
+    background: #fff;
+}
+.cp-vs table thead {
+    font-size: 45px;
+    color: #333
+}
+.cp-vs table>tbody>tr>td {
+        vertical-align: middle;
+}
+.cp-vs table .t {
+    font-size: 30px;
+    color: #333
+}
+
+
+.cp-order {
+    margin-top: 130px;
+
+}
+
+.cp-order1 > div{
+    width: 50%;
+    float:left;
+    text-align: left
+}
+.cp-order1 h2 {
+    display: inline-block;
+    text-align: left;
+    font-size: 55px;
+    margin: 8px 0;
+}
+.cp-order1 span {
+    padding-left: 20px;
+    font-size: 35px;
+    color: #000
+}
+.cp-order small {
+    display: block;
+    padding-left: 26px;
+    font-size: 26px;
+    color: #333
+}
+
+.cp-order1 b {
+    float: right;
+    background: #ec1358;
+    font-size: 32px;
+    font-weight: lighter;
+    padding: 10px 34px;
+    margin: 20px 10px;
+    cursor: pointer
+}
+
+.cp-order2 > div {
+    width: 50%;
+    float: left;
+    text-align: left
+}
+
+.cp-order2 h2 {
+    margin: 0;
+    font-size: 35px;
+    text-align: left;
+    line-height: 50px
+}
+
+.cp-order2 small {
+    padding-left: 20px;
+}
+
+.cp-more {
+    padding-top: 60px
+}
+.cp-more h1 {
+    font-size: 54px;
+    margin-bottom: 30px;
+}
+.cp-more ul li {
+    float: left;
+    padding: 2px;
+    background: #fff;
+}
+.cp-more ul li img {
+    width: 389px;
+    height: 258px
+}
+
+
+.xiu {
+    background:#dab866;
+}
+.xiu .main-tit {
+    border-bottom: 10px solid #b29b5b
+}
+.xiu .main-tit h1,
+.xiu .main-tit p{
+    color: #dab866
+}
+.xiu .xiu-list {
+    margin: 30px auto;
+    padding: 0 40px;
+   
+}
+.xiu .xiu-list ul {
+    background: #fff;
+     overflow: hidden
+    
+}
+.xiu .xiu-list ul li {
+    float: left;
+    padding: 20px;
+    width: 50%;
+}
+
+.xiu .xiu-list  img {
+    width: 100%
+}
