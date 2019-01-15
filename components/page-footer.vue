@@ -46,7 +46,7 @@
         </div>
       </b-container>
       <div class="footer-copyright">
-        <p><a target="_blank" href="//www.9-mi.cn">玖米空间</a>|<a target="_blank" href="//www.djw001.com/">玖米建筑工业</a></p>
+        <p><a target="_blank" href="//www.9-mi.cn">玖米空间</a>|<a target="_blank" href="http://www.djw001.com/">玖米建筑工业</a></p>
         <span>Copyright © 2016-2026 广东玖米空间科技有限公司. All Rights Reserved.     粤ICP备15094424号 </span>
       </div>
   </div>

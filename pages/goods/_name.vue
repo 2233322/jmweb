@@ -8,7 +8,7 @@
       <div class="series">
         <div class="series-tab">
           <div v-for="(category, index) in categories" :key="index">
-            <nuxt-link v-if="category.key === 'djw'" target="_blank" to="//www.djw001.com/">
+            <nuxt-link v-if="category.key === 'djw'" target="_blank" to="http://www.djw001.com/">
               <i>{{category.name}}</i>
             </nuxt-link>
             <nuxt-link v-else :to="{ name: 'goods-name', params: { name: category.key } }" :class="asyncData.cateNodes[0].key === category.key ? 'active' : ''">

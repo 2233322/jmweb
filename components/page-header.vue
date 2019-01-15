@@ -39,12 +39,12 @@
                 <div class="category-list-left">
                   <div class="top">
                     <i class="icon"></i>
-                    <nuxt-link target="_blank" to="//www.djw001.com">玖米建筑工业</nuxt-link>
+                    <nuxt-link target="_blank" to="http://www.djw001.com">玖米建筑工业</nuxt-link>
                   </div>
                   <div class="bottom">
-                    <nuxt-link target="_blank" to="//www.djw001.com/products/djwdz" >度假屋</nuxt-link>
-                    <nuxt-link target="_blank" to="//www.djw001.com/products/djyldz" >度假院落</nuxt-link>
-                    <nuxt-link target="_blank" to="//www.djw001.com/products/jqjg" >景区景观产品</nuxt-link>
+                    <nuxt-link target="_blank" to="http://www.djw001.com/products/djwdz" >度假屋</nuxt-link>
+                    <nuxt-link target="_blank" to="http://www.djw001.com/products/djyldz" >度假院落</nuxt-link>
+                    <nuxt-link target="_blank" to="http://www.djw001.com/products/jqjg" >景区景观产品</nuxt-link>
                   </div>
                   <i class="arrow"></i>
                 </div>
@@ -76,7 +76,7 @@
           </div>
         </div>
         <div class="item"><nuxt-link :to="{name: 'index'}"><img src="~/assets/images/jumi-menu.png" alt="玖米空间"></nuxt-link></div>
-        <div class="item"><a href="http://www.djw001.com/?from=9-mi.cn" target="_black">玖米建筑工业</a></div>
+        <div class="item"><a href="http:http://www.djw001.com/?from=9-mi.cn" target="_black">玖米建筑工业</a></div>
         <div class="item"><nuxt-link :to="{ name: 'topic' }">专题活动</nuxt-link></div>
         <div class="item itemore">
           <nuxt-link :to="{name: 'info'}">定制攻略</nuxt-link>
