@@ -38,9 +38,9 @@
                   <nuxt-link to="/item/80" target="_blank">
                     <img src="~/static/images/pzp13.jpg" alt="玖米空间">
                   </nuxt-link>
-                  <nuxt-link to="http://www.djw001.com/products/ysyl/170" target="_blank">
+                  <a href="http://www.djw001.com/products/ysyl/170?from=9-mi.cn" target="_blank">
                     <img src="~/static/images/pzp14.jpg" alt="度假院落《山里寒舍》">
-                  </nuxt-link>
+                  </a>
                   <nuxt-link to="/item/34" target="_blank">
                     <img src="~/static/images/pzp15.jpg" alt="和风禅语">
                   </nuxt-link>
@@ -48,9 +48,9 @@
               </div>
               <div class="item">
                 <div class="item-left">
-                  <nuxt-link to="http://www.djw001.com/products/yqxl/154" target="_blank">
+                  <a href="http://www.djw001.com/products/yqxl/154?from=9-mi.cn" target="_blank">
                     <img src="~/static/images/pzp21.jpg" alt="《隐栖·玲珑C》">
-                  </nuxt-link>
+                  </a>
                 </div>
                 <div class="item-right">
                   <nuxt-link to="/item/51" target="_blank">
@@ -59,9 +59,9 @@
                   <nuxt-link to="/item/56" target="_blank">
                     <img src="~/static/images/pzp23.jpg" alt="露台花园">
                   </nuxt-link>
-                  <nuxt-link to="http://www.djw001.com/products/lj/177" target="_blank">
+                  <a href="http://www.djw001.com/products/lj/177?from=9-mi.cn" target="_blank">
                     <img src="~/static/images/pzp24.jpg" alt="户外婚礼空间">
-                  </nuxt-link>
+                  </a>
                   <nuxt-link to="/item/42" target="_blank">
                     <img src="~/static/images/pzp25.jpg" alt="屋顶酒吧咖啡馆">
                   </nuxt-link>

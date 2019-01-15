@@ -37,10 +37,10 @@
               </nuxt-link>
             </div>
             <div class="banner-item">
-              <nuxt-link to="http://www.djw001.com/ljdjw" target="_blank">
+              <a href="http://www.djw001.com/ljdjw?from=9-mi.cn" target="_blank">
                 <img src="~static/images/mdhw5.jpg">
                 <span>全铝别墅是采用全铝合金材料拼装成的系统化建筑，是目前世界上环保、节能、回收率最高的建筑结构之一</span>
-              </nuxt-link>
+              </a>
             </div>
           </div>
           <div class="tab-list">

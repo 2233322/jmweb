@@ -165,19 +165,19 @@
       </div>
       <div class="line-boy">
         <div class="child-cate">
-          <nuxt-link target="_blank" to="http://www.djw001.com/ljdjw">了解铝制度假屋</nuxt-link>
-          <nuxt-link target="_blank" to="http://www.djw001.com/products/djwdz">度假屋定制</nuxt-link>
-          <nuxt-link target="_blank" to="http://www.djw001.com/products/djyldz">度假院落定制</nuxt-link>
-          <nuxt-link target="_blank" to="http://www.djw001.com/products/jqjg">景观景区产品</nuxt-link>
+          <a target="_blank" href="http://www.djw001.com/ljdjw?from=9-mi.cn">了解铝制度假屋</a>
+          <a target="_blank" href="http://www.djw001.com/products/djwdz?from=9-mi.cn">度假屋定制</a>
+          <a target="_blank" href="http://www.djw001.com/products/djyldz?from=9-mi.cn">度假院落定制</a>
+          <a target="_blank" href="http://www.djw001.com/products/jqjg?from=9-mi.cn">景观景区产品</a>
         </div>
         <div class="floor-content">
           <div class="banner-con">
-            <nuxt-link to="http://www.djw001.com/" target="_blank">
+            <a href="http://www.djw001.com?from=9-mi.cn" target="_blank">
               <img src="~static/images/fl30.jpg">
               <div class="detail-wrap">
                 <img class="floor-arrow-big" src="~assets/images/floor-arr.png">
               </div>
-            </nuxt-link>
+            </a>
           </div>
           <div class="column-con">
             <b-carousel
@@ -187,56 +187,56 @@
               :interval="4000"
             >
               <b-carousel-slide img-blank>
-                <a href="http://www.djw001.com/products/djwdz/150" target="_blank">
+                <a href="http://www.djw001.com/products/djwdz/150?from=9-mi.cn" target="_blank">
                   <img src="~static/images/fl31.jpg">
                 </a>
               </b-carousel-slide>
               <b-carousel-slide img-blank>
-                <a href="http://www.djw001.com/products/djwdz/147" target="_blank">
+                <a href="http://www.djw001.com/products/djwdz/147?from=9-mi.cn" target="_blank">
                   <img src="~static/images/fl32.jpg">
                 </a>
               </b-carousel-slide>
             </b-carousel>
-            <nuxt-link class="item" to="http://www.djw001.com/products/ysyl/170" target="_blank">
+            <a class="item" href="http://www.djw001.com/products/ysyl/170?from=9-mi.cn" target="_blank">
               <div class="floor-item-content-wrap">
                 <img src="~static/images/fl33.jpg">
                 <div class="floor-item-title">度假院落《山里寒舍》</div>
               </div>
-            </nuxt-link>
-            <nuxt-link class="item" to="http://www.djw001.com/products/djwdz/145" target="_blank">
+            </a>
+            <a class="item" href="http://www.djw001.com/products/djwdz/145?from=9-mi.cn" target="_blank">
               <div class="floor-item-content-wrap">
                 <img src="~static/images/fl34.jpg">
                 <div class="floor-item-title">《归来·银杏》</div>
               </div>
-            </nuxt-link>
-            <nuxt-link class="item align-self-end" to="http://www.djw001.com/products/djwdz/184" target="_blank">
+            </a>
+            <a class="item align-self-end" href="http://www.djw001.com/products/djwdz/184?from=9-mi.cn" target="_blank">
               <div class="floor-item-content-wrap">
                 <img src="~static/images/fl35.jpg">
                 <div class="floor-item-title">《天空·北极光》</div>
               </div>
-            </nuxt-link>
-            <nuxt-link class="item align-self-end" to="http://www.djw001.com/products/yqxl/154" target="_blank">
+            </a>
+            <a class="item align-self-end" href="http://www.djw001.com/products/yqxl/154?from=9-mi.cn" target="_blank">
               <div class="floor-item-content-wrap">
                 <img src="~static/images/fl36.jpg">
                 <div class="floor-item-title">《隐栖·玲珑C》</div>
               </div>
-            </nuxt-link>
-            <nuxt-link class="item align-self-end" to="http://www.djw001.com/products/yqxl/156" target="_blank">
+            </a>
+            <a class="item align-self-end" href="http://www.djw001.com/products/yqxl/156?from=9-mi.cn" target="_blank">
               <div class="floor-item-content-wrap">
                 <img src="~static/images/fl37.jpg">
                 <div class="floor-item-title">《隐栖·野居》</div>
               </div>
-            </nuxt-link>
-            <nuxt-link class="item align-self-end" to="http://www.djw001.com/products/djwdz/160" target="_blank">
+            </a>
+            <a class="item align-self-end" href="http://www.djw001.com/products/djwdz/160?from=9-mi.cn" target="_blank">
               <div class="floor-item-content-wrap">
                 <img src="~static/images/fl38.jpg">
                 <div class="floor-item-title">《原乡·富士山》</div>
               </div>
-            </nuxt-link>
+            </a>
           </div>
         </div>
       </div>
-      <a href="http://www.djw001.com/" class="floor-line-ad" target="_blank" ><img src="~static/images/fl3b.png" width="1140"></a>
+      <a href="http://www.djw001.com?from=9-mi.cn" class="floor-line-ad" target="_blank" ><img src="~static/images/fl3b.png" width="1140"></a>
     </b-container>
     <b-container class="floor-line-con">
       <i class="color-mark"></i>
