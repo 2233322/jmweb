@@ -4,7 +4,7 @@ module.exports = {
   },
   // Headers of the page
   head: {
-    title: '玖米空间-阳台露台天台花园庭院定制装修（可代理加盟）',
+    title: '玖米空间-阳台露台天台花园庭院定制装修设计（可代理加盟）',
     meta: [
       { charset: 'utf-8' },
       {
