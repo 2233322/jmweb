@@ -11,7 +11,10 @@ module.exports = {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1, user-scalable=no'
       },
-      { hid: 'description', name: 'description', content: '玖米空间' }
+      {
+        hid: 'description',
+        name: 'description',
+        content: '广东玖米空间科技有限公司是一家集研发、生产、销售为一体的综合型企业。 公司主要从事新型环保建材家居产品的开发和推广应用业务。公司下设研发中心、生产工厂以及直销、分销、工程、海外四个销售事业部。历经多年艰苦创业,玖米空间已经成为中国著名品牌、中国绿色品牌、中国户外建材行业领军品牌在全球高端户外建材领域享有较高知名度'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
