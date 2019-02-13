@@ -1,4 +1,5 @@
 module.exports = {
+  cache: true,
   env: {
     baseURL: (process.env.NODE_ENV === 'production' ? 'http//www.9-mi.cn' : 'http://localhost:3000')
   },
@@ -10,6 +11,11 @@ module.exports = {
       {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1, user-scalable=no'
+      },
+      {
+        hid: 'keywords',
+        nam: 'keywords',
+        content: '阳台'
       },
       {
         hid: 'description',
@@ -39,9 +45,9 @@ module.exports = {
 
   // Build configuration
   build: {
-    analyze: {
-      analyzerMode: 'static'
-    },
+    // analyze: {
+    //   analyzerMode: 'static'
+    // },
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({

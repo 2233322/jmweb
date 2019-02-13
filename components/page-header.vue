@@ -76,7 +76,7 @@
           </div>
         </div>
         <div class="item"><nuxt-link :to="{name: 'index'}"><img src="~/assets/images/jumi-menu.png" alt="玖米空间"></nuxt-link></div>
-        <div class="item"><a href="http:http://www.djw001.com/?from=9-mi.cn" target="_black">玖米建筑工业</a></div>
+        <div class="item"><a href="http://www.djw001.com/?from=9-mi.cn" target="_black">玖米建筑工业</a></div>
         <div class="item"><nuxt-link :to="{ name: 'topic' }">专题活动</nuxt-link></div>
         <div class="item itemore">
           <nuxt-link :to="{name: 'info'}">定制攻略</nuxt-link>
