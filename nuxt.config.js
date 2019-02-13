@@ -14,7 +14,7 @@ module.exports = {
       },
       {
         hid: 'keywords',
-        nam: 'keywords',
+        name: 'keywords',
         content: '阳台'
       },
       {
