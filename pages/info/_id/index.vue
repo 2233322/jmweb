@@ -3,8 +3,8 @@
     <b-container>
       <b-breadcrumb>
         <b-breadcrumb-item to="/">首页</b-breadcrumb-item>
-        <b-breadcrumb-item :to="{name: 'info'}">秒懂户外</b-breadcrumb-item>
-        <b-breadcrumb-item :to="{name: 'info-name', params: { name: asyncData.article.articleCategory.key }}">{{asyncData.article.articleCategory.title}}</b-breadcrumb-item>
+        <b-breadcrumb-item :to="{name: 'infos'}">定制资讯</b-breadcrumb-item>
+        <b-breadcrumb-item :to="{name: 'infos-name', params: { name: asyncData.article.articleCategory.key }}">{{asyncData.article.articleCategory.title}}</b-breadcrumb-item>
       </b-breadcrumb>
       <div class="article-wrap">
         <div class="article-content">

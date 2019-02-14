@@ -3,35 +3,35 @@
     <b-container>
       <b-breadcrumb>
         <b-breadcrumb-item to="/">首页</b-breadcrumb-item>
-        <b-breadcrumb-item to="/" disabled>秒懂户外</b-breadcrumb-item>
+        <b-breadcrumb-item to="/" disabled>定制资讯</b-breadcrumb-item>
       </b-breadcrumb>
       <div class="layer-inner outdoor-block">
         <div class="com-inner mod-hd">
-          <h3><i></i><span>户外篇</span></h3>
-          <nuxt-link :to="{ name: 'info-name', params: { name: 'outdoor' } }">更多></nuxt-link>
+          <h3><i></i><span>庭院资讯</span></h3>
+          <nuxt-link :to="{ name: 'infos-name', params: { name: 'outdoor' } }">更多></nuxt-link>
         </div>
         <div class="com-inner-content" ref="banner">
           <div class="banner-list">
             <div class="banner-item banner-item-active">
-              <nuxt-link to="/info/outdoor/36" target="_blank">
+              <nuxt-link to="/info/36" target="_blank">
                 <img src="~static/images/mdhw1.jpg">
                 <span>不容错过的庭院定制丨整体效果一级棒，入院的刹那就惊艳了！</span>
               </nuxt-link>
             </div>
             <div class="banner-item">
-              <nuxt-link to="/info/outdoor/33">
+              <nuxt-link to="/info/33">
                 <img src="~static/images/mdhw2.jpg" target="_blank">
                 <span>房子待久太闷？将露台改成这个模样，谁来谁着迷！</span>
               </nuxt-link>
             </div>
             <div class="banner-item">
-              <nuxt-link to="/info/outdoor/35">
+              <nuxt-link to="/info/35">
                 <img src="~static/images/mdhw3.jpg" target="_blank">
                 <span>在更接近天空的地方，眺望城市的模样</span>
               </nuxt-link>
             </div>
             <div class="banner-item">
-              <nuxt-link to="/info/outdoor/32" target="_blank">
+              <nuxt-link to="/info/32" target="_blank">
                 <img src="~static/images/mdhw4.jpg">
                 <span>360°观景全铝树屋，把大自然尽收眼底，睁开眼就是最想要的生活</span>
               </nuxt-link>
@@ -54,41 +54,41 @@
       </div>
       <div class="layer-inner company-block">
         <div class="com-inner mod-hd">
-          <h3><i></i><span>动态篇</span></h3>
-          <nuxt-link :to="{ name: 'info-name', params: { name: 'company' } }">更多></nuxt-link>
+          <h3><i></i><span>公司动态</span></h3>
+          <nuxt-link :to="{ name: 'infos-name', params: { name: 'company' } }">更多></nuxt-link>
         </div>
         <div class="com-inner-content">
-          <nuxt-link class="first" target="_black" to="/info/company/13">
+          <nuxt-link class="first" target="_black" to="/info/13">
             <img src="~static/images/mdhwdt.jpg">
             <h3>广交会实力圈粉，玖米让世界看见全铝臻品！</h3>
             <h4>2018年10月23日，伴着秋日和风，第124届广交会在广州琶洲展馆隆重举行...</h4>
           </nuxt-link>
-          <nuxt-link class="item" to="/info/company/8" title="环保政策频发，全铝家居将成家具市场“潜力股”">环保政策频发，全铝家居将成家具市场“潜力股”</nuxt-link>
-          <nuxt-link class="item"  to="/info/company/7" title="生活区域正在由室内向户外空间迁徙">生活区域正在由室内向户外空间迁徙</nuxt-link>
+          <nuxt-link class="item" to="/info/8" title="环保政策频发，全铝家居将成家具市场“潜力股”">环保政策频发，全铝家居将成家具市场“潜力股”</nuxt-link>
+          <nuxt-link class="item"  to="/info/7" title="生活区域正在由室内向户外空间迁徙">生活区域正在由室内向户外空间迁徙</nuxt-link>
         </div>
       </div>
       <div class="layer-inner custom-block">
         <div class="com-inner mod-hd">
-          <h3><i></i><span>定制篇</span></h3>
-          <nuxt-link :to="{ name: 'info-name', params: { name: 'custom' } }">更多></nuxt-link>
+          <h3><i></i><span>阳台资讯</span></h3>
+          <nuxt-link :to="{ name: 'infos-name', params: { name: 'custom' } }">更多></nuxt-link>
         </div>
         <div class="com-inner-content">
-          <nuxt-link class="item" target="_black" to="/info/custom/29">
+          <nuxt-link class="item" target="_black" to="/info/29">
               <img src="//api.9-mi.cn/resource/file/201811100948402400.jpg">
               <h3>玖米阳台定制中天花板、墙板、地板使用的是什么板材？健康、耐用、环保吗？</h3>
             <span>玖米阳台定制大面积使用的是玖米木铺装，什么是玖米木呢？玖米木是引进德国和新加坡高新科技技术，以木质纤维与高分子塑胶材料聚氯乙烯树脂（即PVC）聚合而成的新型再生木材，属于再生木的一种。</span>
           </nuxt-link>
-          <nuxt-link class="item" target="_black" to="/info/custom/28">
+          <nuxt-link class="item" target="_black" to="/info/28">
             <img src="//api.9-mi.cn/resource/file/201811091546126940.jpg">
             <h3>房子小？看看别人家的阳台是怎么被安排得明明白白</h3>
             <span>在寸土寸金的城市，有个属于自己的房子已经是很不容易有个属于自己的私人空间就更难得了,看看这款阳台,浓厚的东南亚气息室内都是环保耐用的玖米木板构造,肌理分明但色泽柔和的自然本色</span>
           </nuxt-link>
-          <nuxt-link class="item" target="_black" to="/info/custom/1">
+          <nuxt-link class="item" target="_black" to="/info/1">
             <img src="//api.9-mi.cn/resource/file/201811131625214010.jpg">
             <h3>阳台改造后明明可以靠颜值却偏偏要靠实力，邻居看了都羡慕</h3>
             <span>装修前这仅仅8平方米的小阳台是如此简陋。阳台改造后明明可以考颜值去偏偏靠实力，如今邻居看了都羡慕。生活需要绿色的点缀，是否想过把自家的阳台打造成一个小花园？让家拥有一个绿意盎然的空间，修身养性，让生活“慢下来”。</span>
           </nuxt-link>
-          <nuxt-link class="item" target="_black" to="/info/custom/30">
+          <nuxt-link class="item" target="_black" to="/info/30">
             <img src="//api.9-mi.cn/resource/file/201811100957094140.jpg">
             <h3>确认过眼神，小阳台变浪漫餐厅，品质和实用我两个都要！</h3>
             <span>有品味，省钱，舒适，实用是绝大多数人对家装的一个追求，而阳台的环境，布置，利用就是“小而美”的代表。在阳台设餐厅和厨房，极致的利用了空间，安心舒适。</span>
@@ -103,7 +103,7 @@
 export default {
   head () {
     return {
-      title: '秒懂户外'
+      title: '定制资讯'
     }
   },
   mounted () {

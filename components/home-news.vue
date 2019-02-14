@@ -5,15 +5,15 @@
         <div class="news-list">
           <div class="item">
             <div class="item-bg">
-              <h4>户外篇</h4>
+              <h4>阳台百科</h4>
               <p>回归自然，极致体验</p>
               <div class="img-wrapper-outer">
                   <img src="~static/images/hn1.jpg">
               </div>
             </div>
-            <nuxt-link target="_blank" :to="{name: 'info-name', params: {name: 'outdoor'}}" class="item-mask">
+            <nuxt-link target="_blank" :to="{name: 'infos-name', params: {name: 'custom'}}" class="item-mask">
               <div class="coupon">
-                <span>户外篇</span>
+                <span>阳台百科</span>
               </div>
               <div class="enter">
                 <span>点击进入</span>
@@ -22,15 +22,15 @@
           </div>
           <div class="item item-middle-line">
             <div class="item-bg">
-              <h4>定制篇</h4>
+              <h4>庭院百科</h4>
               <p>独有的空间，独有的享受</p>
               <div class="img-wrapper-outer">
                   <img src="~static/images/hn2.jpg">
               </div>
             </div>
-            <nuxt-link target="_blank" :to="{name: 'info-name', params: {name: 'custom'}}" class="item-mask">
+            <nuxt-link target="_blank" :to="{name: 'infos-name', params: {name: 'outdoor'}}" class="item-mask">
               <div class="coupon">
-                <span>定制篇</span>
+                <span>庭院百科</span>
               </div>
               <div class="enter">
                 <span>点击进入</span>
@@ -39,15 +39,15 @@
           </div>
           <div class="item">
             <div class="item-bg">
-              <h4>动态篇</h4>
+              <h4>露台屋顶</h4>
               <p>与品质生活不期而遇</p>
               <div class="img-wrapper-outer">
                   <img src="~static/images/hn3.jpg">
               </div>
             </div>
-            <nuxt-link target="_blank" :to="{name: 'info-name', params: {name: 'company'}}" class="item-mask">
+            <nuxt-link target="_blank" :to="{name: 'infos-name', params: {name: 'gazebo'}}" class="item-mask">
               <div class="coupon">
-                <span>动态篇</span>
+                <span>露台屋顶</span>
               </div>
               <div class="enter">
                 <span>点击进入</span>

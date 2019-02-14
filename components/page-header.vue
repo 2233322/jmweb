@@ -79,25 +79,25 @@
         <div class="item"><a href="http://www.djw001.com/?from=9-mi.cn" target="_black">玖米建筑工业</a></div>
         <div class="item"><nuxt-link :to="{ name: 'topic' }">专题活动</nuxt-link></div>
         <div class="item itemore">
-          <nuxt-link :to="{name: 'info'}">定制攻略</nuxt-link>
+          <nuxt-link :to="{name: 'infos'}">定制资讯</nuxt-link>
           <div class="children">
-            <nuxt-link class="child-item" :to="{ name: 'info-name', params: { name: 'custom' } }" target="_black">
+            <nuxt-link class="child-item" :to="{ name: 'infos-name', params: { name: 'custom' } }" target="_black">
               <img src="~assets/images/m-icon-ytdz.png">
               <p>阳台定制</p>
             </nuxt-link>
-            <nuxt-link class="child-item" :to="{ name: 'info-name', params: { name: 'outdoor' } }" target="_black">
+            <nuxt-link class="child-item" :to="{ name: 'infos-name', params: { name: 'outdoor' } }" target="_black">
               <img src="~assets/images/m-icon-tydz.png">
               <p>庭院定制</p>
             </nuxt-link>
-             <nuxt-link class="child-item" :to="{ name: 'info-name', params: { name: 'gazebo' } }" target="_black">
+             <nuxt-link class="child-item" :to="{ name: 'infos-name', params: { name: 'gazebo' } }" target="_black">
               <img src="~assets/images/m-icon-ltwd.png">
               <p>露台屋顶</p>
             </nuxt-link>
-             <nuxt-link class="child-item" :to="{ name: 'info-name', params: { name: 'cabinet' } }" target="_black">
+             <nuxt-link class="child-item" :to="{ name: 'infos-name', params: { name: 'cabinet' } }" target="_black">
               <img src="~assets/images/m-icon-cgdz.png">
               <p>橱柜定制</p>
             </nuxt-link>
-            <nuxt-link class="child-item" :to="{ name: 'info-name', params: { name: 'company' } }" target="_black">
+            <nuxt-link class="child-item" :to="{ name: 'infos-name', params: { name: 'company' } }" target="_black">
               <img src="~assets/images/m-icon-dtp.png">
               <p>动态篇</p>
             </nuxt-link>

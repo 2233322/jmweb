@@ -3,12 +3,12 @@
     <b-container>
       <b-breadcrumb>
         <b-breadcrumb-item to="/">首页</b-breadcrumb-item>
-        <b-breadcrumb-item :to="{name: 'info'}">秒懂户外</b-breadcrumb-item>
-        <b-breadcrumb-item :to="{ name: 'info-name', params: { name: asyncData.nodes[0].articleCategory.key } }" >{{asyncData.nodes[0].articleCategory.title}}</b-breadcrumb-item>
+        <b-breadcrumb-item :to="{name: 'infos'}">定制资讯</b-breadcrumb-item>
+        <b-breadcrumb-item :to="{ name: 'infos-name', params: { name: asyncData.nodes[0].articleCategory.key } }" >{{asyncData.nodes[0].articleCategory.title}}</b-breadcrumb-item>
       </b-breadcrumb>
       <div class="info-list-wrap">
         <div class="com-inner-card info-list-content">
-          <nuxt-link class="item" v-for="article in asyncData.nodes" :key="article.id" :to="{ name: 'info-name-id', params: { name: article.articleCategory.key, id: article.id } }">
+          <nuxt-link class="item" v-for="article in asyncData.nodes" :key="article.id" :to="{ name: 'info-id', params: { id: article.id } }">
             <div class="item-left">
               <div class="item-bgimg" :style="{backgroundImage: `url(${article.cover.path})`}"></div>
             </div>
@@ -83,7 +83,7 @@ export default {
   watch: {
     asyncData: {
       handler(val, oldval) {
-        this.$router.push({ name: 'info-name', params: { name: this.$route.params.name }, query: { page: val.currentPage } })
+        this.$router.push({ name: 'infos-name', params: { name: this.$route.params.name }, query: { page: val.currentPage } })
       },
       immediate: true,
       deep: true
