@@ -15,7 +15,7 @@ module.exports = {
       {
         hid: 'keywords',
         name: 'keywords',
-        content: '阳台露台天台花园庭院橱柜定制装修设计'
+        content: '阳台,露台,天台,花园,庭院,橱柜,定制,装修设计'
       },
       {
         hid: 'description',
