@@ -15,6 +15,7 @@
           <p class="title">有限空间，无限舒适</p>
           <span class="subtitle">活动时间：11月1日-11月21日</span>
           </nuxt-link>
+          <a href="/zhuanti/ygf2/">ddd</a>
           <nuxt-link target="_blank" to="//www.9-mi.cn/zhuanti/ygf2/">
           <img src="~static/images/hzt2.jpg">
           <p class="title">这里的生活有关日月，无关风雨</p>

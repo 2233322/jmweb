@@ -5,6 +5,10 @@ if (!sessionStorage.getItem("oneurl")) {
   sessionStorage.setItem('from', from);
 }
 
+if (!sessionStorage.getItem('sourceRef')) {
+  sessionStorage.setItem('sourceRef', document.referrer || '未知')
+}
+
 $(document).ready(function () {
   $(document).on("click", ".tjajax", function () {
     $_form = $(this).closest('.ajaxform');
@@ -53,6 +57,7 @@ $(document).ready(function () {
     const remark = _remark ? `remark: "${_remark}"` : '';
     const entryUrl = _entryUrl ? `entryUrl: "${_entryUrl}"` : '';
     const submitUrl = _submitUrl ? `submitUrl: "${_submitUrl}"` : '';
+    const sourceRef = sessionStorage.getItem('sourceRef') || '未知';
 
     $.ajax({
       type: "POST",
@@ -64,6 +69,7 @@ $(document).ready(function () {
               mobile: "${_mobile}"
               identity: "${_from[0]}"
               shareCode: "${_from[1]}"
+              sourceRef: "${sourceRef}"
               ${contactTime}
               ${remark}
               ${entryUrl}
