@@ -1,6 +1,6 @@
 <template>
   <header class="header" :class="$nuxt.$route.name !== 'index' ? 'border-bottom-line' : ''">
-    <a href="//9-mi.cn/theme/yangtai.html" v-show="$nuxt.$route.name === 'index'" target="_blank">
+    <a href="//www.9-mi.cn/theme/yangtai.html" v-show="$nuxt.$route.name === 'index'" target="_blank">
       <img src="~static/images/ad/topad.jpg" width="100%" alt="活动" />
     </a>
     <b-container class="header-top" fluid>
