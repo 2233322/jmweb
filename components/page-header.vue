@@ -76,7 +76,6 @@
           </div>
         </div>
         <div class="item"><nuxt-link :to="{name: 'index'}"><img src="~/assets/images/jumi-menu.png" alt="玖米空间"></nuxt-link></div>
-        <div class="item"><a href="http://www.djw001.com/?from=9-mi.cn" target="_black">玖米建筑工业</a></div>
         <div class="item"><nuxt-link :to="{ name: 'topic' }">专题活动</nuxt-link></div>
         <div class="item itemore">
           <nuxt-link :to="{name: 'infos'}">定制资讯</nuxt-link>
@@ -107,6 +106,7 @@
         <div class="item"><nuxt-link :to="{ name: 'guide-id', params: { id: 12 } }">关于玖米</nuxt-link></div>
         <div class="item"><a href="http://www.9-mi.cn/zhuanti/zs/" target="_blank">阳台合伙人</a></div>
         <div class="item"><a href="http://www.9-mi.cn/zhuanti/hyzs/" target="_blank">玖米花园</a></div>
+        <div class="item"><a href="http://www.djw001.com/?from=9-mi.cn" target="_black">玖米建筑工业</a></div>
       </div>
     </b-container>
   </header>

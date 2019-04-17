@@ -2,9 +2,9 @@
   <div class="page-home">
     <no-ssr>
       <agile class="banner" :arrows="false" :speed="100" :infinite="false" :fade="true" :autoplaySpeed="5000" :autoplay="true">
-        <a href="/p/helper/" target="_blank"><div class="slide slide--1" style="background-image: url(//api.9-mi.cn/resource/jiumiweb/pc/images/banner1.jpg)"></div></a>
-        <a href="/item/12" target="_blank"><div class="slide slide--2" style="background-image: url(//api.9-mi.cn/resource/jiumiweb/pc/images/banner0.jpg)"></div></a>
-        <a href="/item/49" target="_blank"><div class="slide slide--3" style="background-image: url(//api.9-mi.cn/resource/jiumiweb/pc/images/banner2.jpg)"></div></a>
+        <a href="/p/helper/" target="_blank"><div class="slide slide--1" style="background-image: url(//api.9-mi.cn/resource/jiumiweb/pc/images/banner0.jpg)"></div></a>
+        <a href="/item/12" target="_blank"><div class="slide slide--2" style="background-image: url(//api.9-mi.cn/resource/jiumiweb/pc/images/banner2.jpg)"></div></a>
+        <!-- <a href="/item/49" target="_blank"><div class="slide slide--3" style="background-image: url(//api.9-mi.cn/resource/jiumiweb/pc/images/banner2.jpg)"></div></a> -->
       </agile>
       <div slot="placeholder" style="background-color: #de171c; height: 500px; width: 100%">
         <img src="//api.9-mi.cn/resource/jiumiweb/pc/images/banner1.jpg" style="height: 500px"/>
