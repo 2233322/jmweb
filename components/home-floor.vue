@@ -187,47 +187,47 @@
               :interval="4000"
             >
               <b-carousel-slide img-blank>
-                <a href="http://www.djw001.com/products/djwdz/150?from=9-mi.cn" target="_blank">
+                <a href="http://www.djw001.com/product/150?from=9-mi.cn" target="_blank">
                   <img src="~static/images/fl31.jpg">
                 </a>
               </b-carousel-slide>
               <b-carousel-slide img-blank>
-                <a href="http://www.djw001.com/products/djwdz/147?from=9-mi.cn" target="_blank">
+                <a href="http://www.djw001.com/product/147?from=9-mi.cn" target="_blank">
                   <img src="~static/images/fl32.jpg">
                 </a>
               </b-carousel-slide>
             </b-carousel>
-            <a class="item" href="http://www.djw001.com/products/ysyl/170?from=9-mi.cn" target="_blank">
+            <a class="item" href="http://www.djw001.com/product/170?from=9-mi.cn" target="_blank">
               <div class="floor-item-content-wrap">
                 <img src="~static/images/fl33.jpg">
                 <div class="floor-item-title">度假院落《山里寒舍》</div>
               </div>
             </a>
-            <a class="item" href="http://www.djw001.com/products/djwdz/145?from=9-mi.cn" target="_blank">
+            <a class="item" href="http://www.djw001.com/product/145?from=9-mi.cn" target="_blank">
               <div class="floor-item-content-wrap">
                 <img src="~static/images/fl34.jpg">
                 <div class="floor-item-title">《归来·银杏》</div>
               </div>
             </a>
-            <a class="item align-self-end" href="http://www.djw001.com/products/djwdz/184?from=9-mi.cn" target="_blank">
+            <a class="item align-self-end" href="http://www.djw001.com/product/184?from=9-mi.cn" target="_blank">
               <div class="floor-item-content-wrap">
                 <img src="~static/images/fl35.jpg">
                 <div class="floor-item-title">《天空·北极光》</div>
               </div>
             </a>
-            <a class="item align-self-end" href="http://www.djw001.com/products/yqxl/154?from=9-mi.cn" target="_blank">
+            <a class="item align-self-end" href="http://www.djw001.com/product/154?from=9-mi.cn" target="_blank">
               <div class="floor-item-content-wrap">
                 <img src="~static/images/fl36.jpg">
                 <div class="floor-item-title">《隐栖·玲珑C》</div>
               </div>
             </a>
-            <a class="item align-self-end" href="http://www.djw001.com/products/yqxl/156?from=9-mi.cn" target="_blank">
+            <a class="item align-self-end" href="http://www.djw001.com/product/156?from=9-mi.cn" target="_blank">
               <div class="floor-item-content-wrap">
                 <img src="~static/images/fl37.jpg">
                 <div class="floor-item-title">《隐栖·野居》</div>
               </div>
             </a>
-            <a class="item align-self-end" href="http://www.djw001.com/products/djwdz/160?from=9-mi.cn" target="_blank">
+            <a class="item align-self-end" href="http://www.djw001.com/product/160?from=9-mi.cn" target="_blank">
               <div class="floor-item-content-wrap">
                 <img src="~static/images/fl38.jpg">
                 <div class="floor-item-title">《原乡·富士山》</div>
