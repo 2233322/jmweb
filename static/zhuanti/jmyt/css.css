@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+.wrap {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.plate {
+  margin-top: 80px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.size48 {
+  font-size: 48px
+}
+
+.size60 {
+  font-size: 60px
+}
+
+.size36 {
+  font-size: 36px
+}
+.appoin {
+  padding: 30px 80px;
+  background-color: #ffa100;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+header {
+  padding: 5px 0;
+  background-color: #333
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.banner {
+  display: table;
+  padding: 23vh 0 28vh 0;
+  width: 100%;
+  background-image: url(./images/banner.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #fff;
+  text-align: center
+}
+.banner div {
+  text-shadow: 0 2px 3px #000
+}
+
+.plate-1 {
+  text-align: center
+}
+.plate-1 .col {
+  padding: 0 36px;
+  font-size: 20px;
+  color: #333;
+  text-align: left;
+  line-height: 30px;
+}
+.plate-1 .round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px auto 30px auto;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #444;
+  font-size: 30px;
+}
+
+.feedback-wrap {
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-bottom: 6rem;
+  background: url(http://www.djw001.com/Public/Home/images/feedback_bg.jpg) top center no-repeat;
+  text-align: center
+}
+
+.feedback-box {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.feedback-box h1 {
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.feedback-box button {
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  background-color: #4d32be;
+  line-height: 54px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.feedback-wrap .input-group {
+  margin: 20px auto;
+  display: flex;
+}
+
+.feedback-box .input-group div {
+  width: 160px;
+  background-color: #4d32be;
+  line-height: 54px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.feedback-box .input-group input {
+  padding-left: 20px;
+  flex: 1 0 auto;
+  color: #666;
+  height: 54px;
+  border: none;
+}
+
+.plate-2 {
+  padding: 70px 0;
+  background-color: #f0f0f0;
+  text-align: center
+}
+
+.plate-2 .t1 {
+  margin: 20px auto 60px auto
+}
